@@ -1,0 +1,113 @@
+syntax = "proto3";
+
+option java_package = "studio.lunabee.onesafe.proto";
+option java_outer_classname = "OSExportProto";
+
+message ArchiveMetadata {
+  enum ArchiveKind {
+    UNSPECIFIED = 0;
+    BACKUP = 1;
+    SHARING = 2;
+  }
+  bool is_from_one_safe_plus = 2;
+  int32 archive_version = 3; // The archive spec version. Currently 1.
+  string from_platform = 4; // "ios" or "android"
+  string created_at = 5; // Using ISO8601 format like this: 2022-11-29T06:18:08.095Z
+  int32 items_count = 6;
+  ArchiveKind archive_kind = 7;
+  int32 bubbles_contacts_count = 8;
+  optional bytes cryptoToken = 9;
+};
+
+message Archive {
+  bytes salt = 1;
+  repeated ArchiveSafeItem items = 2;
+  repeated ArchiveSafeItemField fields = 3;
+  repeated ArchiveSafeItemKey keys = 4;
+  repeated ArchiveBubblesContact contacts = 5;
+  repeated ArchiveBubblesMessage messages = 6;
+  repeated ArchiveBubblesContactKey contact_keys = 7;
+  repeated ArchiveBubblesConversation conversations = 8;
+  optional bytes enc_bubbles_master_key = 9;
+};
+
+message ArchiveSafeItem {
+  string id = 1;
+  optional bytes enc_name = 2;
+  optional bytes enc_color = 3;
+  optional string icon_id = 4;
+  optional string parent_id = 5;
+  optional string deleted_parent_id = 6;
+  bool is_favorite = 7;
+  string created_at = 8; // Using ISO8601 format like this: 2022-11-29T06:18:08.095Z
+  string updated_at = 9; // Using ISO8601 format like this: 2022-11-29T06:18:08.095Z
+  optional string deleted_at = 10; // Using ISO8601 format like this: 2022-11-29T06:18:08.095Z
+  double position = 11;
+};
+
+message ArchiveSafeItemField {
+  string id = 1;
+  optional bytes enc_name = 2;
+  double position = 3;
+  string item_id = 4;
+  optional bytes enc_placeholder = 5;
+  optional bytes enc_value = 6;
+  optional bytes enc_kind = 7;
+  bool show_prediction = 8;
+  string created_at = 9; // Using ISO8601 format like this: 2022-11-29T06:18:08.095Z
+  string updated_at = 10; // Using ISO8601 format like this: 2022-11-29T06:18:08.095Z
+  bool is_item_identifier = 11;
+  optional bytes formatting_mask = 12;
+  optional bytes secure_display_mask = 13;
+  bool is_secured = 14;
+};
+
+message ArchiveSafeItemKey {
+  string id = 1;
+  bytes value = 2;
+};
+
+message ArchiveBubblesContact {
+  string id = 1;
+  bytes enc_name = 2;
+  optional bytes enc_shared_key = 3;
+  string updated_at = 4;
+  bytes enc_sharing_mode = 5;
+  string shared_conversation_id = 6;
+  string consulted_at = 7;
+  optional bytes enc_reset_conversation_date = 8;
+}
+
+message ArchiveBubblesConversation {
+  string id = 1;
+  bytes enc_personal_public_key = 2;
+  bytes enc_personal_private_key = 3;
+  bytes enc_message_number = 4;
+  bytes enc_sequence_number = 5;
+  optional bytes enc_root_key = 6;
+  optional bytes enc_sending_chain_key = 7;
+  optional bytes enc_receive_chain_key = 8;
+  optional bytes enc_last_contact_public_key = 9;
+  optional bytes enc_received_last_message_number = 10;
+}
+
+message ArchiveBubblesMessage {
+  enum MessageDirection {
+    SENT = 0;
+    RECEIVED = 1;
+  }
+  string id = 1;
+  string from_contact_id = 2;
+  bytes enc_sent_at = 3;
+  bytes enc_content = 4;
+  MessageDirection direction = 5;
+  bytes enc_channel = 6;
+  bool is_read = 7;
+  bytes enc_safe_item_id = 8;
+  float order = 9;
+}
+
+message ArchiveBubblesContactKey {
+  string contact_id = 1;
+  bytes enc_local_key = 2;
+}

@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  oneSafe
+
+  Created by Nicolas on 14/10/2023.
+  Copyright © 2023 Lunabee Studio. All rights reserved.
+*/
+"NSCameraUsageDescription" = "oneSafeは写真やビデオを撮影できるように、カメラへのアクセスが必要です。";
+"NSMicrophoneUsageDescription" = "oneSafeはビデオの録画のためにマイクへのアクセスが必要です。";
+"NSFaceIDUsageDescription" = "oneSafeは高速認証を有効にするためにFace IDへのアクセスが必要です。";
+"NSPhotoLibraryUsageDescription" = "oneSafeは写真やビデオを選択できるように、ライブラリへのアクセスが必要です。";
