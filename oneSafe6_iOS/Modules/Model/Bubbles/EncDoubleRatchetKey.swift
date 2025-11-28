@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 
 public struct EncDoubleRatchetKey {
     public let id: String

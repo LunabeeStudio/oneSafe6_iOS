@@ -217,68 +217,32 @@ public extension UseCase {
 
 // MARK: Warnings
 public extension UseCase {
-    static func shouldDisplayNoPasswordVerificationWarning() throws -> AnyPublisher<Bool, Never> {
-        let hasContent: Bool = try safeItemRepository.safeItemsCount() > 0 || contactRepository.hasContact()
+    static func lastNoBackupWarningDismissDate() -> Date {
+        appRepository.lastNoBackupWarningDismissDate()
+    }
 
-        let isTimeToShowWarningPublisher: AnyPublisher<Bool, Never> = appRepository.lastNoPasswordVerificationWarningDismissDate()
-            .removeDuplicates()
-            .map { lastDismissWarningDate in
-                guard let minDateToShowWarning = Calendar.current.date(
-                    byAdding: .day,
-                    value: Constant.minNumberOfDaysBetweenWarningAppearance,
-                    to: lastDismissWarningDate
-                ) else { return false }
-                return minDateToShowWarning < .now
-            }
-            .eraseToAnyPublisher()
+    static func observeLastNoPasswordVerificationWarningDismissDate() -> AnyPublisher<Date, Never> {
+        appRepository.observeLastNoPasswordVerificationWarningDismissDate()
+    }
 
-        return cryptoRepository.observeIsBiometryActivated()
-            .removeDuplicates()
-            .combineLatest(
-                settingsRepository.observePasswordVerificationOption().removeDuplicates(),
-                isTimeToShowWarningPublisher.removeDuplicates()
-            )
-            .map { isBiometryActive, passwordVerificationOption, isTimeToShowWarning in
-                isBiometryActive && passwordVerificationOption == .never && hasContent && isTimeToShowWarning
-            }
-            .eraseToAnyPublisher()
+    static func lastNoPasswordVerificationWarningDismissDate() -> Date {
+        appRepository.lastNoPasswordVerificationWarningDismissDate()
+    }
+
+    static func observeLastNoBackupWarningDismissDate() -> AnyPublisher<Date, Never> {
+        appRepository.observeLastNoBackupWarningDismissDate()
+    }
+
+    static func updateLastNoPasswordVerificationWarningDismissDate(_ date: Date) {
+        appRepository.updateLastNoPasswordVerificationWarningDismissDate(date)
+    }
+
+    static func updateLastNoBackupWarningDismissDate(_ date: Date) {
+        appRepository.updateLastNoBackupWarningDismissDate(date)
     }
 
     static func dismissNoPasswordVerificationWarning() {
         appRepository.updateLastNoPasswordVerificationWarningDismissDate(.now)
-    }
-
-    static func shouldDisplayNoRecentBackupWarning() throws -> AnyPublisher<Bool, Never> {
-        let hasContent: Bool = try safeItemRepository.safeItemsCount() > 0 || contactRepository.hasContact()
-
-        let isTimeToShowWarningPublisher: AnyPublisher<Bool, Never> = appRepository.lastNoBackupWarningDismissDate()
-            .removeDuplicates()
-            .map { lastDismissWarningDate in
-                guard let minDateToShowWarning = Calendar.current.date(
-                    byAdding: .day,
-                    value: Constant.minNumberOfDaysBetweenWarningAppearance,
-                    to: lastDismissWarningDate
-                ) else { return false }
-                return minDateToShowWarning < .now
-            }
-            .eraseToAnyPublisher()
-
-        return archiveRepository.lastManualBackupDate()
-            .removeDuplicates()
-            .combineLatest(
-                archiveRepository.observeLastAutoBackupDate().removeDuplicates(),
-                isTimeToShowWarningPublisher.removeDuplicates()
-            )
-            .map { lastManualBackupDate, lastAutoBackupDate, isTimeToShowWarning in
-                let lastBackupDate: Date = max(lastManualBackupDate, lastAutoBackupDate ?? .distantPast)
-                guard let minDateToShowWarning = Calendar.current.date(
-                    byAdding: .day,
-                    value: Constant.minNumberOfDaysSinceLastBackupToShowWarning,
-                    to: lastBackupDate
-                ) else { return false }
-                return minDateToShowWarning < .now && hasContent && isTimeToShowWarning
-            }
-            .eraseToAnyPublisher()
     }
 
     static func dismissNoRecentBackupWarning() {

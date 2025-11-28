@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 import Errors
 
 public struct EnqueuedMessage {

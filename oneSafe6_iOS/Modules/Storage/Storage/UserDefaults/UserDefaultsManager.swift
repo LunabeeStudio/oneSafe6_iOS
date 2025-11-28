@@ -131,20 +131,17 @@ public final class UserDefaultsManager {
 
     // MARK: Warnings
     @UserDefault(key: UserDefaultsKey.lastNoBackupWarningDismissDate.rawValue, userDefaults: userDefaults)
-    public var lastNoBackupWarningDismissDate: Date = Constant.initialLastDismissWarningDate
+    public var lastNoBackupWarningDismissDate: Date = .distantPast
 
     @UserDefault(key: UserDefaultsKey.lastNoPasswordVerificationWarningDismissDate.rawValue, userDefaults: userDefaults)
-    public var lastNoPasswordVerificationWarningDismissDate: Date = Constant.initialLastDismissWarningDate
+    public var lastNoPasswordVerificationWarningDismissDate: Date = .distantPast
 
     @UserDefault(key: UserDefaultsKey.lastManualBackupDate.rawValue, userDefaults: userDefaults)
     public var lastManualBackupDate: Date = .distantPast
+
+    // MARK: FeatureFlag
 
     @UserDefault(key: UserDefaultsKey.createItemFromPastboardOptionEnabled.rawValue, userDefaults: userDefaults)
     public var createItemFromPastboardOptionEnabled: Bool = false
 }
 // swiftlint:enable redundant_optional_initialization
-
-private extension Constant {
-    /// Equals to `minNumberOfDaysBetweenWarningAppearance` - 10 days
-    static let initialLastDismissWarningDate: Date = Calendar.current.date(byAdding: .day, value: -20, to: .now) ?? .distantPast
-}

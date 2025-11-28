@@ -7,7 +7,7 @@
 //
 
 import Model
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 
 public protocol ContactKeyRepository: ContactKeyLocalDataSource {
     func deleteAll() throws

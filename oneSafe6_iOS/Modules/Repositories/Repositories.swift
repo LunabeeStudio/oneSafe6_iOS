@@ -8,7 +8,7 @@
 
 import Protocols
 import DependencyInjection
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 
 public struct Repositories: DependenciesProvider {
     public init() {

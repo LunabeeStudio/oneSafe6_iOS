@@ -6,7 +6,7 @@
 //  Copyright © 2024 Lunabee Studio. All rights reserved.
 //
 
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 
 public final class RandomKeyProvider: BubblesRandomKeyProvider {
     /// Only used by KMP, prefers `generateKey` to get `Data`

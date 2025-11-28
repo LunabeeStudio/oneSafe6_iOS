@@ -8,7 +8,7 @@
 
 
 import Model
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 
 public protocol ConversationRepository: ConversationLocalDatasource {
     func getAllConversations() throws -> [Model.EncConversation]

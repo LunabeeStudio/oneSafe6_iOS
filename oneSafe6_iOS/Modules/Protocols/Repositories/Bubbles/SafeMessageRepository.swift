@@ -7,7 +7,7 @@
 //
 
 import Model
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 import Combine
 
 public protocol SafeMessageRepository: MessageLocalDataSource {

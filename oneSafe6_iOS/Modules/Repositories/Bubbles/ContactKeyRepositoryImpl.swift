@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 import Model
 import Storage
 import RealmSwift

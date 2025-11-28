@@ -12,8 +12,7 @@ import CoreCrypto
 import Combine
 import Protocols
 import Errors
-import LBFoundationKit
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 
 public extension UseCase {
     static func isArchiveFile(_ url: URL) -> Bool {
@@ -84,6 +83,12 @@ public extension UseCase {
     static func setLastManualBackupDate() {
         archiveRepository.setLastManualBackupDate(.now)
     }
+
+    static func observeLastManualBackupDate() -> AnyPublisher<Date, Never> {
+        archiveRepository.lastManualBackupDate()
+            .removeDuplicates()
+            .eraseToAnyPublisher()
+    }
 }
 
 // MARK: - Backup import -
@@ -153,6 +158,12 @@ public extension UseCase {
 
     static func getLastAutoBackupDate() -> Date? {
         archiveRepository.lastAutoBackupDate
+    }
+
+    static func observeLastAutoBackupDate() -> AnyPublisher<Date?, Never> {
+        archiveRepository.observeLastAutoBackupDate()
+            .removeDuplicates()
+            .eraseToAnyPublisher()
     }
 
     static func shouldAutoBackup() -> Bool {
@@ -254,6 +265,7 @@ private extension UseCase {
                                 guard let kind = try SafeItemField.Kind(rawValue: getStringFromEncryptedData(data: field.encKind, key: key) ?? "") else {
                                     throw AppError.appUnknown
                                 }
+                                // TODO: Use a lazy var `isAFile`
                                 guard [.file, .photo, .video].contains(kind) else {
                                     return nil
                                 }
@@ -270,7 +282,7 @@ private extension UseCase {
                                 }
                             }
                         }
-                        return try await fieldsGroup.collect().compactMap()
+                        return try await fieldsGroup.collect().compactMap { $0 }
                     })
                 }
             }
@@ -458,7 +470,7 @@ private extension UseCase {
 
         var archiveContent: ArchiveImportContent = try await archiveRepository.getImportArchiveContent(
             archiveExtractionUrl: archiveExtractionUrl,
-            safeId: bubblesSafeRepository.currentSafeId().uuidString(),
+            safeId: bubblesSafeRepository.currentSafeId().uuidString(), // TODO: Use the right way to get this value when multisafe will be implemented.
             progress: archiveContentProgress
         )
 

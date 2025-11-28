@@ -16,6 +16,7 @@ final class PasswordVerificationRepositoryImpl: PasswordVerificationRepository {
         return Date(timeIntervalSince1970: timeStamp)
     }
 
+
     func updateLastPasswordEnterWithSuccessDate() throws {
         try FileDirectoryManager.shared.updateLastPasswordVerificationTimestamp(Date().timeIntervalSince1970)
     }

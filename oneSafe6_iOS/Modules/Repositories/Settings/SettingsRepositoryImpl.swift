@@ -11,7 +11,7 @@ import Protocols
 import Model
 import Storage
 import Combine
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 
 final class SettingsRepositoryImpl: SettingsRepository {
     func observeInactivityAutolockOption() -> AnyPublisher<InactivityAutolockOption, Never> {

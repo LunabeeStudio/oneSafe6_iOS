@@ -9,7 +9,7 @@
 import Foundation
 import Model
 import Combine
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 
 public protocol SettingsRepository: MessagingSettingsRepository {
     func observeInactivityAutolockOption() -> AnyPublisher<InactivityAutolockOption, Never>

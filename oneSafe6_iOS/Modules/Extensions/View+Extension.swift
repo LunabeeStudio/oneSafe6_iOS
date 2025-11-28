@@ -9,6 +9,7 @@
 import SwiftUI
 
 public extension View {
+    // TODO: Delete conditionalModifier if team iOS accept it
     @ViewBuilder
     func conditionalModifier(_ condition: Bool, @ViewBuilder transform: (Self) -> some View) -> some View {
         if condition {
@@ -16,6 +17,11 @@ public extension View {
         } else {
             self
         }
+    }
+
+    @ViewBuilder
+    func transformModifier(@ViewBuilder transform: (Self) -> some View) -> some View {
+        transform(self)
     }
 }
 

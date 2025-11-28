@@ -21,6 +21,7 @@ public extension UseCase {
         guard let lastPasswordVerificationDate = passwordVerificationRepository.lastPasswordVerificationDate else { return false }
 
         var dateComponent: DateComponents = .init()
+
         dateComponent.weekOfYear = passwordVerificationDurationInWeeks
 
         guard let minimumPasswordVerificationDate = Calendar.current.date(byAdding: dateComponent, to: lastPasswordVerificationDate) else { return false }
@@ -31,4 +32,5 @@ public extension UseCase {
     static func showPasswordVerificationLater() {
         lastPasswordVerificationRequestDate = Date()
     }
+
 }

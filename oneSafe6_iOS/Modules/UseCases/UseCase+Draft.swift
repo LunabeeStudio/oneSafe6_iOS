@@ -10,7 +10,7 @@ import Foundation
 import Model
 import Repositories
 import CoreCrypto
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 import Errors
 
 public extension UseCase {

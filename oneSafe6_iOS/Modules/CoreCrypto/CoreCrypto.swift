@@ -12,7 +12,7 @@ import CryptoKit
 import CommonCrypto
 import LocalAuthentication
 import Errors
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 
 public final class CoreCrypto {
     public enum AuthenticatedData: Hashable {

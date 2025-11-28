@@ -44,7 +44,6 @@
 		0F32F0A129EE811E00B76F95 /* Extensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B4704D2642CECF00D0AAAB /* Extensions.framework */; };
 		0F32F0A629EE813200B76F95 /* Extensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B4704D2642CECF00D0AAAB /* Extensions.framework */; };
 		0F3702F728D477AE0086BE3D /* SafeItemTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3702F628D477AE0086BE3D /* SafeItemTemplate.swift */; };
-		0F37F3AB2C2D5DC80015B55F /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37F3AA2C2D5DC80015B55F /* Text+Extension.swift */; };
 		0F38A71929D6C94B00E9B401 /* ForceUpgradeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F38A71829D6C94B00E9B401 /* ForceUpgradeData.swift */; };
 		0F38A71B29D6C99F00E9B401 /* ForceUpgradeStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F38A71A29D6C99F00E9B401 /* ForceUpgradeStrings.swift */; };
 		0F38A71E29D6D17600E9B401 /* ForceUpgradeRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F38A71D29D6D17600E9B401 /* ForceUpgradeRepositoryImpl.swift */; };
@@ -64,7 +63,6 @@
 		0F463D732C51055D002580A6 /* BubblesSafeRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F463D722C51055D002580A6 /* BubblesSafeRepositoryImpl.swift */; };
 		0F463D772C515107002580A6 /* BubblesMainCryptoRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F463D762C515107002580A6 /* BubblesMainCryptoRepositoryImpl.swift */; };
 		0F463D792C515602002580A6 /* CoreCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37268D3629963E1B002739A6 /* CoreCrypto.framework */; };
-		0F4DFD21295456EF009936D1 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4DFD20295456EF009936D1 /* View+Extension.swift */; };
 		0F62EF2B2A6973C7003CC423 /* Errors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F38A72A29D71DD900E9B401 /* Errors.framework */; };
 		0F65B6922A4C25EC005EBCFB /* SafeItemIconDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F65B6912A4C25EC005EBCFB /* SafeItemIconDuplicate.swift */; };
 		0F6A13112927C41A00A59B6B /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A13102927C41A00A59B6B /* UseCase.swift */; };
@@ -76,7 +74,6 @@
 		0F6D75342C53961A002C05FE /* SecKey+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D75332C53961A002C05FE /* SecKey+Extension.swift */; };
 		0F6ECFCE2B0BA10100870396 /* prefill.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F6ECFCD2B0BA10100870396 /* prefill.json */; };
 		0F7F81522C4943ED00821732 /* EnqueuedMessageRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F81512C4943ED00821732 /* EnqueuedMessageRepositoryImpl.swift */; };
-		0F7F815A2C494B6B00821732 /* REnqueuedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F81552C49454300821732 /* REnqueuedMessage.swift */; };
 		0F7F81602C494D5300821732 /* EnqueuedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F815C2C494B8000821732 /* EnqueuedMessage.swift */; };
 		0F7F81692C4963DE00821732 /* HandShakeDataRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F81682C4963DE00821732 /* HandShakeDataRepositoryImpl.swift */; };
 		0F7F816B2C4965C500821732 /* EncHandShakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F816A2C4965C500821732 /* EncHandShakeData.swift */; };
@@ -89,7 +86,6 @@
 		0F8A05A42C7F5ECC00EC3358 /* ContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8A05A32C7F5ECC00EC3358 /* ContactRepository.swift */; };
 		0F8DF21B2A0A87CC00CA06AA /* TimeInterval+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8DF2172A0A87A700CA06AA /* TimeInterval+Extension.swift */; };
 		0F8DF21F2A0A92F400CA06AA /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0445428F5654C00179CE9 /* FileManager+Extension.swift */; };
-		0F98F87C2A4DB62F00E40547 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F98F87B2A4DB62F00E40547 /* Bundle+Extension.swift */; };
 		0F98F87D2A4DB65700E40547 /* Extensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B4704D2642CECF00D0AAAB /* Extensions.framework */; };
 		0F98F8832A4DB73E00E40547 /* KeychainKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F98F8822A4DB73E00E40547 /* KeychainKey.swift */; };
 		0FA294F02C6673A800EB2D54 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799780029B39A5C0026C844 /* Generator.swift */; };
@@ -126,10 +122,9 @@
 		0FFBAF432C5A244700416325 /* MessageQueueRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFBAF422C5A244700416325 /* MessageQueueRepositoryImpl.swift */; };
 		3701E7AA29BB6190007D97C8 /* WebsiteInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3701E7A929BB6190007D97C8 /* WebsiteInfo.swift */; };
 		37056A0E2B2A252800D35FC8 /* ProximityLockOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37056A0D2B2A252800D35FC8 /* ProximityLockOption.swift */; };
-		370C4EB6299BD2F70089E2AC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C4EB5299BD2F70089E2AC /* Constant.swift */; };
+		370C4EB6299BD2F70089E2AC /* UseCasesConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C4EB5299BD2F70089E2AC /* UseCasesConstant.swift */; };
 		371095F7298D3D2900F4B1B3 /* Biometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371095F6298D3D2900F4B1B3 /* Biometry.swift */; };
 		371095F9298D3F8300F4B1B3 /* BiometryAvailabilityError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371095F8298D3F8300F4B1B3 /* BiometryAvailabilityError.swift */; };
-		371095FD298D5DBE00F4B1B3 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371095FC298D5DBE00F4B1B3 /* UIImage+Extension.swift */; };
 		3714A6392ADCF7C900DFB5CA /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714A6382ADCF7C900DFB5CA /* Double+Extension.swift */; };
 		371636D6263C4D950096462E /* oneSafeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 371636D4263C4D950096462E /* oneSafeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		371636F9263C4DE30096462E /* StorageSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 371636F7263C4DE30096462E /* StorageSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -148,40 +143,44 @@
 		37314BA1293F625000BCADE9 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 37314BA0293F625000BCADE9 /* ZIPFoundation */; };
 		37314BA3293F86D500BCADE9 /* UseCase+Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37314BA2293F86D500BCADE9 /* UseCase+Archive.swift */; };
 		3732AD642C070F7400E033E5 /* Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = 3732AD632C070F7400E033E5 /* Shimmer */; };
-		3734FCC829DD3761001C2D46 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734FCC729DD3761001C2D46 /* Constant.swift */; };
+		3734FCC829DD3761001C2D46 /* ServerConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734FCC729DD3761001C2D46 /* ServerConstant.swift */; };
 		3734FCED29DEFBF7001C2D46 /* DatabaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734FCEC29DEFBF7001C2D46 /* DatabaseRepository.swift */; };
 		3734FCF029DEFC63001C2D46 /* DatabaseRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734FCEF29DEFC63001C2D46 /* DatabaseRepositoryImpl.swift */; };
+		37368D662EDA033200DA52E9 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC042426498A6900F339D2 /* Bundle+Extension.swift */; };
+		37368D672EDA034700DA52E9 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC044DE28F5B89300179CE9 /* Logger.swift */; };
+		37368D682EDA040000DA52E9 /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37F3AA2C2D5DC80015B55F /* Text+Extension.swift */; };
+		37368D692EDA040000DA52E9 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5422D297ADBC7005D2E24 /* Date+Extension.swift */; };
+		37368D6A2EDA040000DA52E9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D0EBFF294263BE00CE976E /* UIColor+Extension.swift */; };
+		37368D6B2EDA040000DA52E9 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93BF060288AE8E30054375C /* Color+Extension.swift */; };
+		37368D6C2EDA040000DA52E9 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4DFD20295456EF009936D1 /* View+Extension.swift */; };
+		37368D6D2EDA040000DA52E9 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF7FC729C371CB009A0861 /* String+Extension.swift */; };
+		37368D6E2EDA040000DA52E9 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3767B9E52A121DF30072BE60 /* UIApplication+Extension.swift */; };
+		37368D6F2EDA040000DA52E9 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C150F12643DB5700ECB416 /* Bundle+Extension.swift */; };
+		37368D702EDA040000DA52E9 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371095FC298D5DBE00F4B1B3 /* UIImage+Extension.swift */; };
+		37368D8D2EDA042F00DA52E9 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F98F87B2A4DB62F00E40547 /* Bundle+Extension.swift */; };
+		373A396D2AB0F7ED001F15F9 /* ShowTime in Frameworks */ = {isa = PBXBuildFile; productRef = 373A396C2AB0F7ED001F15F9 /* ShowTime */; };
 		373DFAB929410DF2003F7FA8 /* ArchiveImportMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373DFAB829410DF2003F7FA8 /* ArchiveImportMode.swift */; };
-		3744251E2E3CF1A200213587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3744250D2E3CF1A200213587 /* LaunchScreen.storyboard */; };
-		374425202E3CF1A200213587 /* oneSafe6-UrlScheme.png in Resources */ = {isa = PBXBuildFile; fileRef = 374424EF2E3CF1A200213587 /* oneSafe6-UrlScheme.png */; };
-		374425222E3CF1A200213587 /* BackupIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 374424EC2E3CF1A200213587 /* BackupIcon.png */; };
-		374425242E3CF1A200213587 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374424EE2E3CF1A200213587 /* Images.xcassets */; };
-		374425272E3CF1A200213587 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3744250B2E3CF1A200213587 /* InfoPlist.strings */; };
-		3744252B2E3CF29600213587 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374425292E3CF29600213587 /* Preview Assets.xcassets */; };
-		3744252E2E3CF57900213587 /* LBFoundationKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3744252D2E3CF57900213587 /* LBFoundationKit */; };
-		374425302E3CF59C00213587 /* LBFoundationKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3744252F2E3CF59C00213587 /* LBFoundationKit */; };
 		374569442AD94DB0006282BA /* ColorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 374569432AD94DB0006282BA /* ColorKit */; };
 		374569452AD94F13006282BA /* Extensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B4704D2642CECF00D0AAAB /* Extensions.framework */; };
 		3746575D2AC456F600B331A3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3746575C2AC456F600B331A3 /* RealmSwift */; };
 		3746576A2AC458A800B331A3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 374657692AC458A800B331A3 /* RealmSwift */; };
 		375335972DFC8E7C00068824 /* SentMessageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375335962DFC8E7C00068824 /* SentMessageRepository.swift */; };
 		375335992DFC8F0A00068824 /* HandShakeDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375335982DFC8F0A00068824 /* HandShakeDataRepository.swift */; };
-		3756BC0E29B78AC8006B30DC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3756BC0D29B78AC8006B30DC /* Constant.swift */; };
+		3756BC0E29B78AC8006B30DC /* StorageConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3756BC0D29B78AC8006B30DC /* StorageConstant.swift */; };
 		3759CACA2E0008800071AE88 /* ContactKeyRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3759CAC92E0008800071AE88 /* ContactKeyRepository.swift */; };
 		37627408287870A4009FEE3E /* Storage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371636F5263C4DE30096462E /* Storage.framework */; };
 		37627409287870A4009FEE3E /* Storage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 371636F5263C4DE30096462E /* Storage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		37627410287870DF009FEE3E /* Extensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B4704D2642CECF00D0AAAB /* Extensions.framework */; };
 		37627411287870DF009FEE3E /* Extensions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37B4704D2642CECF00D0AAAB /* Extensions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		37649319299A381400C2EECB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37649318299A381400C2EECB /* Constant.swift */; };
+		37649319299A381400C2EECB /* RepositoriesConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37649318299A381400C2EECB /* RepositoriesConstant.swift */; };
 		3764931A299A8B7C00C2EECB /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371636D2263C4D950096462E /* Model.framework */; };
 		37649320299A98C100C2EECB /* UseCase+OneSafe5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3764931F299A98C100C2EECB /* UseCase+OneSafe5.swift */; };
-		3767B9E62A121DF30072BE60 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3767B9E52A121DF30072BE60 /* UIApplication+Extension.swift */; };
 		376DA93D2AD6754A00B94B14 /* ThumbnailsCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 376DA93C2AD6754A00B94B14 /* ThumbnailsCaching.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		376DA9402AD6754A00B94B14 /* ThumbnailsCaching.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376DA93A2AD6754900B94B14 /* ThumbnailsCaching.framework */; };
 		376DA9412AD6754A00B94B14 /* ThumbnailsCaching.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 376DA93A2AD6754900B94B14 /* ThumbnailsCaching.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		376DA9522AD675CF00B94B14 /* Thumbnails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DA9512AD675CF00B94B14 /* Thumbnails.swift */; };
 		376DA9562AD6766000B94B14 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DA9552AD6766000B94B14 /* FileManager+Extension.swift */; };
-		376DA9582AD6776100B94B14 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DA9572AD6776100B94B14 /* Constant.swift */; };
+		376DA9582AD6776100B94B14 /* ThumbnailsCachingConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DA9572AD6776100B94B14 /* ThumbnailsCachingConstant.swift */; };
 		376DA9592AD67A1200B94B14 /* Errors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F38A72A29D71DD900E9B401 /* Errors.framework */; };
 		3777E1D629967E4500CEE39F /* CoreCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3777E1D529967E4500CEE39F /* CoreCrypto.swift */; };
 		3777E1D7299681F000CEE39F /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B470442642CC8B00D0AAAB /* Data+Extension.swift */; };
@@ -204,7 +203,6 @@
 		379377F929AF11C80002F963 /* UseCase+PasswordGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379377F829AF11C80002F963 /* UseCase+PasswordGeneration.swift */; };
 		379656E92660C48C008883F1 /* CryptoKeyLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379656E82660C48C008883F1 /* CryptoKeyLength.swift */; };
 		3797BC822772241800B2FC22 /* IconDirectoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3797BC812772241800B2FC22 /* IconDirectoryManager.swift */; };
-		3798A241299FC08700D24E00 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93BF060288AE8E30054375C /* Color+Extension.swift */; };
 		379977FE29B398170026C844 /* PasswordConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977FD29B398170026C844 /* PasswordConfig.swift */; };
 		379BB70F2AAB39AD00E772F2 /* SafeItemFileDuplicateRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379BB70E2AAB39AD00E772F2 /* SafeItemFileDuplicateRepository.swift */; };
 		379BB7112AAB3ADA00E772F2 /* SafeItemFileDuplicateRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379BB7102AAB3ADA00E772F2 /* SafeItemFileDuplicateRepositoryImpl.swift */; };
@@ -213,7 +211,6 @@
 		37A945752D3E525B00A36F27 /* FileKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A945742D3E525900A36F27 /* FileKey.swift */; };
 		37AC042126497F9B00F339D2 /* RSafeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC042026497F9B00F339D2 /* RSafeItem.swift */; };
 		37AC04232649808400F339D2 /* RSafeItemField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC04222649808400F339D2 /* RSafeItemField.swift */; };
-		37AC042526498A6900F339D2 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC042426498A6900F339D2 /* Bundle+Extension.swift */; };
 		37B0C4952A0E96EA00557D2A /* ColorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 37B0C4942A0E96EA00557D2A /* ColorKit */; };
 		37B0C49B2A0E985F00557D2A /* ColorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 37B0C49A2A0E985F00557D2A /* ColorKit */; };
 		37B470512642CECF00D0AAAB /* ExtensionsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B4704F2642CECF00D0AAAB /* ExtensionsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -226,7 +223,6 @@
 		37B47597263FDC5500B303D0 /* SafeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B47596263FDC5500B303D0 /* SafeItem.swift */; };
 		37B47599263FDC5C00B303D0 /* SafeItemField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B47598263FDC5C00B303D0 /* SafeItemField.swift */; };
 		37BBA377264A7C06002A01AA /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 37BBA376264A7C06002A01AA /* KeychainAccess */; };
-		37C150F22643DB5700ECB416 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C150F12643DB5700ECB416 /* Bundle+Extension.swift */; };
 		37C150FE2644245100ECB416 /* RSafeItemKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C150F42643DD1A00ECB416 /* RSafeItemKey.swift */; };
 		37C15110264444B200ECB416 /* SafeItemKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C1510F264444B200ECB416 /* SafeItemKey.swift */; };
 		37CC4D7129801DAE00B82763 /* PasswordStrength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC4D7029801DAE00B82763 /* PasswordStrength.swift */; };
@@ -245,11 +241,9 @@
 		37D0EBF7294251FB00CE976E /* SafeItemFieldImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D0EBF4294251FB00CE976E /* SafeItemFieldImport.swift */; };
 		37D0EBFC2942558E00CE976E /* SafeItemImportRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D0EBF92942558E00CE976E /* SafeItemImportRepositoryImpl.swift */; };
 		37D0EBFE2942558E00CE976E /* SafeItemIconImportRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D0EBFB2942558E00CE976E /* SafeItemIconImportRepositoryImpl.swift */; };
-		37D0EC00294263BE00CE976E /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D0EBFF294263BE00CE976E /* UIColor+Extension.swift */; };
 		37E5832A2C07876A0077A5A6 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 3746575C2AC456F600B331A3 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		37EF7FC429C31D25009A0861 /* ArchiveKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF7FC329C31D25009A0861 /* ArchiveKind.swift */; };
 		37EF7FC629C36A6D009A0861 /* Character+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF7FC529C36A6D009A0861 /* Character+Extension.swift */; };
-		37EF7FC829C371CB009A0861 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF7FC729C371CB009A0861 /* String+Extension.swift */; };
 		37EF7FCE29C499EF009A0861 /* UseCase+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF7FCD29C499EF009A0861 /* UseCase+Image.swift */; };
 		37EF7FD729C4B490009A0861 /* Server.h in Headers */ = {isa = PBXBuildFile; fileRef = 37EF7FD629C4B490009A0861 /* Server.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37EF7FDA29C4B490009A0861 /* Server.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EF7FD429C4B490009A0861 /* Server.framework */; };
@@ -282,6 +276,7 @@
 		75A5050E2A29F66B002A5777 /* UseCase+Discovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5050D2A29F66B002A5777 /* UseCase+Discovery.swift */; };
 		9312F3162E12D3E40039F19D /* SafeMessagesSortingOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312F3152E12D3E40039F19D /* SafeMessagesSortingOption.swift */; };
 		932E9E582CDEBE9B00F7530E /* Model.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 371636D2263C4D950096462E /* Model.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		935B874C2D880D310030AAA4 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 935B874B2D880D310030AAA4 /* FirebaseCrashlytics */; };
 		A8074CD0297582B200E36210 /* UseCase+ImageColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8074CCF297582B200E36210 /* UseCase+ImageColor.swift */; };
 		A8E625BA29843AB7005D2DF3 /* UseCase+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E625B929843AB7005D2DF3 /* UseCase+Color.swift */; };
 		A8F93EDF29B4CF3400CF39D0 /* ProgressWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F93EDE29B4CF3400CF39D0 /* ProgressWorker.swift */; };
@@ -311,9 +306,7 @@
 		AC5C3FCB29DF0A91008F95EC /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0444E28F5654C00179CE9 /* Int+Extension.swift */; };
 		AC61D73929D1CC06001CE08C /* ClearPasteboardOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC61D73829D1CC06001CE08C /* ClearPasteboardOption.swift */; };
 		AC6F768529BB43C100BDCF31 /* SafeItemBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC518128F85157002CAEB1 /* SafeItemBundle.swift */; };
-		ACC044DF28F5B89300179CE9 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC044DE28F5B89300179CE9 /* Logger.swift */; };
 		ACC044E128F5BC9A00179CE9 /* CodableForAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC041926497BC500F339D2 /* CodableForAppModel.swift */; };
-		ACC5422E297ADBC7005D2E24 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5422D297ADBC7005D2E24 /* Date+Extension.swift */; };
 		ACC5F8A829C9AEC80017EA74 /* RSearchQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5F8A729C9AEC80017EA74 /* RSearchQuery.swift */; };
 		ACC5F8AB29C9AF7A0017EA74 /* SearchQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5F8A929C9AF760017EA74 /* SearchQuery.swift */; };
 		ACDF247B29F970940088B94E /* AutoBackupFrequencyOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF247A29F970940088B94E /* AutoBackupFrequencyOption.swift */; };
@@ -347,7 +340,7 @@
 		FBC0DA992A4B10CE00913310 /* SafeItemIconDuplicateRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0DA932A4B0CC700913310 /* SafeItemIconDuplicateRepository.swift */; };
 		FBC0DA9A2A4B10E900913310 /* SafeItemIconDuplicateRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0DA962A4B0D5A00913310 /* SafeItemIconDuplicateRepositoryImpl.swift */; };
 		FBEEEB692A6A7EA800DBFB99 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEEEB682A6A7EA800DBFB99 /* Array+Extension.swift */; };
-		FBF97DE62A5C558E00694237 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF97DE52A5C558E00694237 /* Constant.swift */; };
+		FBF97DE62A5C558E00694237 /* ExtensionsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF97DE52A5C558E00694237 /* ExtensionsConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -770,8 +763,9 @@
 		0FFB4C9A2CEF3EE300ADCFFC /* BubblesArchiveRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblesArchiveRepository.swift; sourceTree = "<group>"; };
 		0FFBAF422C5A244700416325 /* MessageQueueRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageQueueRepositoryImpl.swift; sourceTree = "<group>"; };
 		3701E7A929BB6190007D97C8 /* WebsiteInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteInfo.swift; sourceTree = "<group>"; };
+		370569E72B29EEF600D35FC8 /* Haptics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Haptics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37056A0D2B2A252800D35FC8 /* ProximityLockOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityLockOption.swift; sourceTree = "<group>"; };
-		370C4EB5299BD2F70089E2AC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		370C4EB5299BD2F70089E2AC /* UseCasesConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCasesConstant.swift; sourceTree = "<group>"; };
 		371095F6298D3D2900F4B1B3 /* Biometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biometry.swift; sourceTree = "<group>"; };
 		371095F8298D3F8300F4B1B3 /* BiometryAvailabilityError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometryAvailabilityError.swift; sourceTree = "<group>"; };
 		371095FC298D5DBE00F4B1B3 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
@@ -781,7 +775,9 @@
 		371636F5263C4DE30096462E /* Storage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Storage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		371636F7263C4DE30096462E /* StorageSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StorageSDK.h; sourceTree = "<group>"; };
 		371C6C1D2A4ECD0000ED504F /* UseCase+Indexing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UseCase+Indexing.swift"; sourceTree = "<group>"; };
+		371C6C3D2A4F523800ED504F /* QuickLookArchivePreview.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QuickLookArchivePreview.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		371C6C3E2A4F523800ED504F /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		371C6C622A4F5E9E00ED504F /* ThumbnailArchive.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ThumbnailArchive.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		371C6C632A4F5E9E00ED504F /* QuickLookThumbnailing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLookThumbnailing.framework; path = System/Library/Frameworks/QuickLookThumbnailing.framework; sourceTree = SDKROOT; };
 		371D27F82975D0AE00F8125C /* AsyncSequence+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AsyncSequence+Extension.swift"; sourceTree = "<group>"; };
 		3720BB4F29630B0B00A688F0 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
@@ -793,44 +789,24 @@
 		37314B97293F505200BCADE9 /* ArchiveInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveInfo.swift; sourceTree = "<group>"; };
 		37314B99293F5F1200BCADE9 /* ArchiveRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveRepositoryImpl.swift; sourceTree = "<group>"; };
 		37314BA2293F86D500BCADE9 /* UseCase+Archive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UseCase+Archive.swift"; sourceTree = "<group>"; };
-		3734FCC729DD3761001C2D46 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3734FCC729DD3761001C2D46 /* ServerConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConstant.swift; sourceTree = "<group>"; };
 		3734FCEC29DEFBF7001C2D46 /* DatabaseRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseRepository.swift; sourceTree = "<group>"; };
 		3734FCEF29DEFC63001C2D46 /* DatabaseRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseRepositoryImpl.swift; sourceTree = "<group>"; };
 		373DFAB829410DF2003F7FA8 /* ArchiveImportMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveImportMode.swift; sourceTree = "<group>"; };
-		374424EC2E3CF1A200213587 /* BackupIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackupIcon.png; sourceTree = "<group>"; };
-		374424EE2E3CF1A200213587 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		374424EF2E3CF1A200213587 /* oneSafe6-UrlScheme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oneSafe6-UrlScheme.png"; sourceTree = "<group>"; };
-		374424F22E3CF1A200213587 /* oneSafe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = oneSafe.entitlements; sourceTree = "<group>"; };
-		374424F92E3CF1A200213587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		374424FD2E3CF1A200213587 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		374424FE2E3CF1A200213587 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		374424FF2E3CF1A200213587 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		374425002E3CF1A200213587 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		374425012E3CF1A200213587 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		374425022E3CF1A200213587 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		374425032E3CF1A200213587 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		374425042E3CF1A200213587 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		374425052E3CF1A200213587 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		374425062E3CF1A200213587 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		374425072E3CF1A200213587 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		374425082E3CF1A200213587 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		374425092E3CF1A200213587 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		3744250A2E3CF1A200213587 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		3744250D2E3CF1A200213587 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		374425292E3CF29600213587 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		375335962DFC8E7C00068824 /* SentMessageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentMessageRepository.swift; sourceTree = "<group>"; };
 		375335982DFC8F0A00068824 /* HandShakeDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandShakeDataRepository.swift; sourceTree = "<group>"; };
 		3754E2532954C35800E7EF82 /* SafeItemWithKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeItemWithKey.swift; sourceTree = "<group>"; };
-		3756BC0D29B78AC8006B30DC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3756BC0D29B78AC8006B30DC /* StorageConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageConstant.swift; sourceTree = "<group>"; };
+		3758C727286D966F00F1EE3D /* oneSafe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = oneSafe.entitlements; sourceTree = "<group>"; };
 		3759CAC92E0008800071AE88 /* ContactKeyRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactKeyRepository.swift; sourceTree = "<group>"; };
-		37649318299A381400C2EECB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		37649318299A381400C2EECB /* RepositoriesConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesConstant.swift; sourceTree = "<group>"; };
 		3764931F299A98C100C2EECB /* UseCase+OneSafe5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UseCase+OneSafe5.swift"; sourceTree = "<group>"; };
 		3767B9E52A121DF30072BE60 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		376DA93A2AD6754900B94B14 /* ThumbnailsCaching.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThumbnailsCaching.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		376DA93C2AD6754A00B94B14 /* ThumbnailsCaching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThumbnailsCaching.h; sourceTree = "<group>"; };
 		376DA9512AD675CF00B94B14 /* Thumbnails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnails.swift; sourceTree = "<group>"; };
 		376DA9552AD6766000B94B14 /* FileManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
-		376DA9572AD6776100B94B14 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		376DA9572AD6776100B94B14 /* ThumbnailsCachingConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailsCachingConstant.swift; sourceTree = "<group>"; };
 		3777E1D529967E4500CEE39F /* CoreCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreCrypto.swift; sourceTree = "<group>"; };
 		3777E1E12996901200CEE39F /* UseCase+PasswordStength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UseCase+PasswordStength.swift"; sourceTree = "<group>"; };
 		3777E1E52996929E00CEE39F /* UseCase+Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UseCase+Authentication.swift"; sourceTree = "<group>"; };
@@ -851,6 +827,7 @@
 		379BB7102AAB3ADA00E772F2 /* SafeItemFileDuplicateRepositoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeItemFileDuplicateRepositoryImpl.swift; sourceTree = "<group>"; };
 		37A75AE22955B8DC0005812A /* Publisher+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Extension.swift"; sourceTree = "<group>"; };
 		37A945742D3E525900A36F27 /* FileKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileKey.swift; sourceTree = "<group>"; };
+		37ABB0C42ADA648D009B3A4C /* Share.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Share.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		37AC041926497BC500F339D2 /* CodableForAppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableForAppModel.swift; sourceTree = "<group>"; };
 		37AC042026497F9B00F339D2 /* RSafeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSafeItem.swift; sourceTree = "<group>"; };
 		37AC04222649808400F339D2 /* RSafeItemField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSafeItemField.swift; sourceTree = "<group>"; };
@@ -899,6 +876,7 @@
 		37FA51132656223100389913 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
 		37FAB77A286D8CAF00BFEF66 /* oneSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FAB77C286D8CAF00BFEF66 /* oneSafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneSafeApp.swift; sourceTree = "<group>"; };
+		37FAB7A8286D8E3B00BFEF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37FEE6D5299D2174008BE6E0 /* UseCase+Biometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UseCase+Biometry.swift"; sourceTree = "<group>"; };
 		37FEE6D7299D4729008BE6E0 /* ArchiveImportContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveImportContent.swift; sourceTree = "<group>"; };
 		75115FA02A1E591C00B7C269 /* FeatureFlagRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureFlagRepositoryImpl.swift; sourceTree = "<group>"; };
@@ -918,10 +896,13 @@
 		9312F3152E12D3E40039F19D /* SafeMessagesSortingOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeMessagesSortingOption.swift; sourceTree = "<group>"; };
 		A8074CCF297582B200E36210 /* UseCase+ImageColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UseCase+ImageColor.swift"; sourceTree = "<group>"; };
 		A8E625B929843AB7005D2DF3 /* UseCase+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UseCase+Color.swift"; sourceTree = "<group>"; };
+		A8F077E729F17A1100743629 /* oneSafePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneSafePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F078E229F17A1700743629 /* oneSafeDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneSafeDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F93EDE29B4CF3400CF39D0 /* ProgressWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressWorker.swift; sourceTree = "<group>"; };
 		A8F93EE029B4D02C00CF39D0 /* ProgressWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressWorker.swift; sourceTree = "<group>"; };
 		A910F580289BF99300788FC2 /* Realm+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+Extension.swift"; sourceTree = "<group>"; };
 		A910F58D289C1BE100788FC2 /* SafeItemIconRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeItemIconRepositoryImpl.swift; sourceTree = "<group>"; };
+		A93BF030288AC4590054375C /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93BF060288AE8E30054375C /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		A94EDEA6289418F300D23CD8 /* SafeItemRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeItemRepositoryImpl.swift; sourceTree = "<group>"; };
 		A995917828A6A83D00609F01 /* Repositories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repositories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -929,8 +910,12 @@
 		A995919C28A6B2C500609F01 /* UseCases.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UseCases.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A995919E28A6B2C500609F01 /* oneSafeUseCases.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oneSafeUseCases.h; sourceTree = "<group>"; };
 		A9C47B19289BBE4B0057442C /* RealmStorable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmStorable.swift; sourceTree = "<group>"; };
+		AC02A26029F2BE1F00E635C4 /* Assets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Assets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC02A28829F2D01E00E635C4 /* Presenters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Presenters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2EEF8A29E837C60032C979 /* AutoFillCredentialProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AutoFillCredentialProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2EEF8B29E837C60032C979 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		AC367A97292E179300E9365B /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		AC465A7329F295FC00E226EE /* SignInFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignInFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC48958529C47486009B1AA4 /* PasswordGenerationRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerationRepositoryImpl.swift; sourceTree = "<group>"; };
 		AC48958729C47499009B1AA4 /* PasswordGenerationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerationRepository.swift; sourceTree = "<group>"; };
 		AC48959429C4CDC6009B1AA4 /* UseCase+Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UseCase+Settings.swift"; sourceTree = "<group>"; };
@@ -940,6 +925,7 @@
 		AC518AC8291957EB00F6C19F /* FavIconRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavIconRepositoryImpl.swift; sourceTree = "<group>"; };
 		AC5C3FC929DF0A3F008F95EC /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
 		AC61D73829D1CC06001CE08C /* ClearPasteboardOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearPasteboardOption.swift; sourceTree = "<group>"; };
+		ACC0441E28F5641000179CE9 /* Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC0444E28F5654C00179CE9 /* Int+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 		ACC0445428F5654C00179CE9 /* FileManager+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
 		ACC044DE28F5B89300179CE9 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
@@ -974,7 +960,7 @@
 		FBC0DA932A4B0CC700913310 /* SafeItemIconDuplicateRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeItemIconDuplicateRepository.swift; sourceTree = "<group>"; };
 		FBC0DA962A4B0D5A00913310 /* SafeItemIconDuplicateRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeItemIconDuplicateRepositoryImpl.swift; sourceTree = "<group>"; };
 		FBEEEB682A6A7EA800DBFB99 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
-		FBF97DE52A5C558E00694237 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		FBF97DE52A5C558E00694237 /* ExtensionsConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -990,6 +976,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37874D87292FC145006F8E61 /* Extensions.framework in Frameworks */,
+				935B874C2D880D310030AAA4 /* FirebaseCrashlytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1056,8 +1043,8 @@
 				3732AD642C070F7400E033E5 /* Shimmer in Frameworks */,
 				A99591A228A6B2C500609F01 /* UseCases.framework in Frameworks */,
 				C83CFC2829A61E160039B24A /* Protocols.framework in Frameworks */,
+				373A396D2AB0F7ED001F15F9 /* ShowTime in Frameworks */,
 				37268D3C29963E1B002739A6 /* CoreCrypto.framework in Frameworks */,
-				3744252E2E3CF57900213587 /* LBFoundationKit in Frameworks */,
 				A995917E28A6A83D00609F01 /* Repositories.framework in Frameworks */,
 				37EF7FDA29C4B490009A0861 /* Server.framework in Frameworks */,
 				0FA87C9D2C2C61EA0066B6F8 /* CodeScanner in Frameworks */,
@@ -1094,7 +1081,6 @@
 				37F04A2D2AD886CA00609783 /* ThumbnailsCaching.framework in Frameworks */,
 				A99591A828A6B2EB00609F01 /* Repositories.framework in Frameworks */,
 				37B0C4952A0E96EA00557D2A /* ColorKit in Frameworks */,
-				374425302E3CF59C00213587 /* LBFoundationKit in Frameworks */,
 				0F38A73729D71E1800E9B401 /* Errors.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1294,14 +1280,26 @@
 				371636F5263C4DE30096462E /* Storage.framework */,
 				37B4704D2642CECF00D0AAAB /* Extensions.framework */,
 				37FAB77A286D8CAF00BFEF66 /* oneSafe.app */,
+				A93BF030288AC4590054375C /* DesignSystem.framework */,
 				A995917828A6A83D00609F01 /* Repositories.framework */,
 				A995919C28A6B2C500609F01 /* UseCases.framework */,
+				ACC0441E28F5641000179CE9 /* Debug.framework */,
 				37268D3629963E1B002739A6 /* CoreCrypto.framework */,
 				C83CFC0429A617200039B24A /* DependencyInjection.framework */,
 				C83CFC2029A61E160039B24A /* Protocols.framework */,
 				37EF7FD429C4B490009A0861 /* Server.framework */,
 				0F38A72A29D71DD900E9B401 /* Errors.framework */,
+				AC2EEF8A29E837C60032C979 /* AutoFillCredentialProvider.appex */,
+				AC465A7329F295FC00E226EE /* SignInFeature.framework */,
+				AC02A26029F2BE1F00E635C4 /* Assets.framework */,
+				AC02A28829F2D01E00E635C4 /* Presenters.framework */,
+				A8F077E729F17A1100743629 /* oneSafePlus.app */,
+				A8F078E229F17A1700743629 /* oneSafeDev.app */,
+				371C6C3D2A4F523800ED504F /* QuickLookArchivePreview.appex */,
+				371C6C622A4F5E9E00ED504F /* ThumbnailArchive.appex */,
 				376DA93A2AD6754900B94B14 /* ThumbnailsCaching.framework */,
+				37ABB0C42ADA648D009B3A4C /* Share.appex */,
+				370569E72B29EEF600D35FC8 /* Haptics.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1347,7 +1345,7 @@
 		371636F6263C4DE30096462E /* Storage */ = {
 			isa = PBXGroup;
 			children = (
-				3756BC0D29B78AC8006B30DC /* Constant.swift */,
+				3756BC0D29B78AC8006B30DC /* StorageConstant.swift */,
 				37CCFB85265FEDE5008F7725 /* Storage */,
 				37C150F32643DD0D00ECB416 /* Model */,
 				3716370D263C52220096462E /* Resources */,
@@ -1425,74 +1423,11 @@
 			path = Archive;
 			sourceTree = "<group>";
 		};
-		374424F12E3CF1A200213587 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				374424EC2E3CF1A200213587 /* BackupIcon.png */,
-				374424EE2E3CF1A200213587 /* Images.xcassets */,
-				374424EF2E3CF1A200213587 /* oneSafe6-UrlScheme.png */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		374424F42E3CF1A200213587 /* Entitlements */ = {
-			isa = PBXGroup;
-			children = (
-				374424F22E3CF1A200213587 /* oneSafe.entitlements */,
-			);
-			path = Entitlements;
-			sourceTree = "<group>";
-		};
-		374424FC2E3CF1A200213587 /* InfoPlist */ = {
-			isa = PBXGroup;
-			children = (
-				374424F92E3CF1A200213587 /* Info.plist */,
-			);
-			path = InfoPlist;
-			sourceTree = "<group>";
-		};
-		3744250C2E3CF1A200213587 /* InfoPlistStrings */ = {
-			isa = PBXGroup;
-			children = (
-				3744250B2E3CF1A200213587 /* InfoPlist.strings */,
-			);
-			path = InfoPlistStrings;
-			sourceTree = "<group>";
-		};
-		374425102E3CF1A200213587 /* LaunchScreen */ = {
-			isa = PBXGroup;
-			children = (
-				3744250D2E3CF1A200213587 /* LaunchScreen.storyboard */,
-			);
-			path = LaunchScreen;
-			sourceTree = "<group>";
-		};
-		374425152E3CF1A200213587 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				374424F12E3CF1A200213587 /* Assets */,
-				374424F42E3CF1A200213587 /* Entitlements */,
-				374424FC2E3CF1A200213587 /* InfoPlist */,
-				3744250C2E3CF1A200213587 /* InfoPlistStrings */,
-				374425102E3CF1A200213587 /* LaunchScreen */,
-				3744252A2E3CF29600213587 /* Preview Content */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		3744252A2E3CF29600213587 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				374425292E3CF29600213587 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		376DA93B2AD6754A00B94B14 /* ThumbnailsCaching */ = {
 			isa = PBXGroup;
 			children = (
 				376DA93C2AD6754A00B94B14 /* ThumbnailsCaching.h */,
-				376DA9572AD6776100B94B14 /* Constant.swift */,
+				376DA9572AD6776100B94B14 /* ThumbnailsCachingConstant.swift */,
 				376DA9512AD675CF00B94B14 /* Thumbnails.swift */,
 				376DA9542AD6765400B94B14 /* Utils */,
 			);
@@ -1595,7 +1530,7 @@
 				37B470682642CFC800D0AAAB /* Optionals */,
 				37B470592642CEDA00D0AAAB /* Resources */,
 				37CCFB7F265FE7F3008F7725 /* Wrapper */,
-				FBF97DE52A5C558E00694237 /* Constant.swift */,
+				FBF97DE52A5C558E00694237 /* ExtensionsConstant.swift */,
 				0F37F3AA2C2D5DC80015B55F /* Text+Extension.swift */,
 			);
 			path = Extensions;
@@ -1742,7 +1677,7 @@
 			isa = PBXGroup;
 			children = (
 				0FADFE8729D5E76000FD1C6B /* ForceUpgradeServer.swift */,
-				3734FCC729DD3761001C2D46 /* Constant.swift */,
+				3734FCC729DD3761001C2D46 /* ServerConstant.swift */,
 				37EF7FE129C4B4D7009A0861 /* WebContentServer.swift */,
 				37EF7FE029C4B4BC009A0861 /* Resources */,
 			);
@@ -1778,9 +1713,26 @@
 			isa = PBXGroup;
 			children = (
 				37FAB77C286D8CAF00BFEF66 /* oneSafeApp.swift */,
-				374425152E3CF1A200213587 /* Resources */,
+				37FAB7A6286D8DDD00BFEF66 /* Resources */,
 			);
 			path = oneSafe;
+			sourceTree = "<group>";
+		};
+		37FAB7A6286D8DDD00BFEF66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACC0441728F5616A00179CE9 /* Entitlements */,
+				37FAB7A9286D8E4500BFEF66 /* InfoPlist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		37FAB7A9286D8E4500BFEF66 /* InfoPlist */ = {
+			isa = PBXGroup;
+			children = (
+				37FAB7A8286D8E3B00BFEF66 /* Info.plist */,
+			);
+			path = InfoPlist;
 			sourceTree = "<group>";
 		};
 		75115FA22A1E592C00B7C269 /* FeatureFlag */ = {
@@ -1840,7 +1792,7 @@
 		A995917928A6A83D00609F01 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				37649318299A381400C2EECB /* Constant.swift */,
+				37649318299A381400C2EECB /* RepositoriesConstant.swift */,
 				C83CFC3129A623470039B24A /* Repositories.swift */,
 				0FD9633829AE5AE30010B04B /* App */,
 				37314B9B293F61BC00BCADE9 /* Archive */,
@@ -1877,7 +1829,7 @@
 		A995919D28A6B2C500609F01 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
-				370C4EB5299BD2F70089E2AC /* Constant.swift */,
+				370C4EB5299BD2F70089E2AC /* UseCasesConstant.swift */,
 				A8F93EE029B4D02C00CF39D0 /* ProgressWorker.swift */,
 				0F6A13102927C41A00A59B6B /* UseCase.swift */,
 				0FCC5A7C2A0CEB70001C1078 /* UseCase+Error.swift */,
@@ -1937,6 +1889,14 @@
 				AC48959A29C4D01C009B1AA4 /* SettingsRepositoryImpl.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		ACC0441728F5616A00179CE9 /* Entitlements */ = {
+			isa = PBXGroup;
+			children = (
+				3758C727286D966F00F1EE3D /* oneSafe.entitlements */,
+			);
+			path = Entitlements;
 			sourceTree = "<group>";
 		};
 		ACC044DD28F5B88900179CE9 /* Utils */ = {
@@ -2219,8 +2179,6 @@
 				0F98F8802A4DB65700E40547 /* PBXTargetDependency */,
 			);
 			name = CoreCrypto;
-			packageProductDependencies = (
-			);
 			productName = CryptoCore;
 			productReference = 37268D3629963E1B002739A6 /* CoreCrypto.framework */;
 			productType = "com.apple.product-type.framework";
@@ -2316,11 +2274,11 @@
 			name = oneSafe;
 			packageProductDependencies = (
 				37B0C49A2A0E985F00557D2A /* ColorKit */,
+				373A396C2AB0F7ED001F15F9 /* ShowTime */,
 				3746575C2AC456F600B331A3 /* RealmSwift */,
 				3732AD632C070F7400E033E5 /* Shimmer */,
 				0FA87C9C2C2C61EA0066B6F8 /* CodeScanner */,
 				378805342DD5E646009CF180 /* TLDExtractSwift */,
-				3744252D2E3CF57900213587 /* LBFoundationKit */,
 			);
 			productName = oneSafe;
 			productReference = 37FAB77A286D8CAF00BFEF66 /* oneSafe.app */;
@@ -2381,7 +2339,6 @@
 				3777E1E32996906E00CEE39F /* ZxcvbnSwift */,
 				37B0C4942A0E96EA00557D2A /* ColorKit */,
 				3788053A2DD5E7B4009CF180 /* TLDExtractSwift */,
-				3744252F2E3CF59C00213587 /* LBFoundationKit */,
 			);
 			productName = oneSafeUseCases;
 			productReference = A995919C28A6B2C500609F01 /* UseCases.framework */;
@@ -2432,7 +2389,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 2600;
 				ORGANIZATIONNAME = "Lunabee Studio";
 				TargetAttributes = {
 					0F38A72929D71DD900E9B401 = {
@@ -2508,6 +2465,7 @@
 			packageReferences = (
 				3716370A263C4F760096462E /* XCRemoteSwiftPackageReference "realm-cocoa" */,
 				37BBA373264A7BE2002A01AA /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				37208864278B523200EDDEA4 /* XCRemoteSwiftPackageReference "SwiftOTP" */,
 				37314B79293E51BE00BCADE9 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
 				37314B7C293E51DD00BCADE9 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
 				37CC4D6C29801CC900B82763 /* XCRemoteSwiftPackageReference "zxcvbn-swift" */,
@@ -2517,9 +2475,10 @@
 				FB3B0B422A55A74200DE4CC9 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				3790AE222AA642EA003E14A9 /* XCRemoteSwiftPackageReference "TLDExtractSwift" */,
 				3790AE252AA75269003E14A9 /* XCRemoteSwiftPackageReference "SwiftUI-Flow" */,
+				373A396B2AB0F7ED001F15F9 /* XCRemoteSwiftPackageReference "ShowTime" */,
 				3732AD622C070F7400E033E5 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */,
 				0FA87C9B2C2C61EA0066B6F8 /* XCRemoteSwiftPackageReference "CodeScanner" */,
-				3744252C2E3CF57900213587 /* XCRemoteSwiftPackageReference "lbfoundationkit" */,
+				0FB4222C2CB3E159003F2F41 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 37163689263BE05B0096462E /* Products */;
 			projectDirPath = "";
@@ -2596,12 +2555,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3744251E2E3CF1A200213587 /* LaunchScreen.storyboard in Resources */,
-				374425202E3CF1A200213587 /* oneSafe6-UrlScheme.png in Resources */,
-				374425222E3CF1A200213587 /* BackupIcon.png in Resources */,
-				374425242E3CF1A200213587 /* Images.xcassets in Resources */,
-				3744252B2E3CF29600213587 /* Preview Assets.xcassets in Resources */,
-				374425272E3CF1A200213587 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2756,17 +2709,16 @@
 				37D0EBEF2942513700CE976E /* RSafeItemKeyImport.swift in Sources */,
 				0FC4B0C42C52B0A800944F0C /* REncConversation.swift in Sources */,
 				ACC5F8A829C9AEC80017EA74 /* RSearchQuery.swift in Sources */,
+				37368D662EDA033200DA52E9 /* Bundle+Extension.swift in Sources */,
 				37AC04232649808400F339D2 /* RSafeItemField.swift in Sources */,
 				37D0EBF02942513700CE976E /* RSafeItemFieldImport.swift in Sources */,
 				0FF35D562C4A9B4B002C2D79 /* RContactLocalKey.swift in Sources */,
-				3756BC0E29B78AC8006B30DC /* Constant.swift in Sources */,
+				3756BC0E29B78AC8006B30DC /* StorageConstant.swift in Sources */,
 				3797BC822772241800B2FC22 /* IconDirectoryManager.swift in Sources */,
 				378AF334296D995A00659319 /* RIndexWordEntry.swift in Sources */,
 				0FF35D692C4AA764002C2D79 /* RContact.swift in Sources */,
 				37D0EBEE2942513700CE976E /* RSafeItemImport.swift in Sources */,
 				0F463D712C510250002580A6 /* REnqueuedMessage.swift in Sources */,
-				0F7F815A2C494B6B00821732 /* REnqueuedMessage.swift in Sources */,
-				37AC042526498A6900F339D2 /* Bundle+Extension.swift in Sources */,
 				37AC042126497F9B00F339D2 /* RSafeItem.swift in Sources */,
 				37FA51142656223100389913 /* KeychainManager.swift in Sources */,
 				0F463D702C510250002580A6 /* RSentMessage.swift in Sources */,
@@ -2778,9 +2730,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3777E1D629967E4500CEE39F /* CoreCrypto.swift in Sources */,
+				37368D8D2EDA042F00DA52E9 /* Bundle+Extension.swift in Sources */,
 				0F98F8832A4DB73E00E40547 /* KeychainKey.swift in Sources */,
 				0F6D75342C53961A002C05FE /* SecKey+Extension.swift in Sources */,
-				0F98F87C2A4DB62F00E40547 /* Bundle+Extension.swift in Sources */,
 				3777E1D7299681F000CEE39F /* Data+Extension.swift in Sources */,
 				0FB0EB652C8F392600A22CE0 /* RandomKeyProvider.swift in Sources */,
 			);
@@ -2792,7 +2744,7 @@
 			files = (
 				376DA9522AD675CF00B94B14 /* Thumbnails.swift in Sources */,
 				376DA9562AD6766000B94B14 /* FileManager+Extension.swift in Sources */,
-				376DA9582AD6776100B94B14 /* Constant.swift in Sources */,
+				376DA9582AD6776100B94B14 /* ThumbnailsCachingConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2800,7 +2752,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37C150F22643DB5700ECB416 /* Bundle+Extension.swift in Sources */,
 				37B470742642D5E500D0AAAB /* Data+Extension.swift in Sources */,
 				37EF7FC629C36A6D009A0861 /* Character+Extension.swift in Sources */,
 				37B470702642D0CC00D0AAAB /* OptionalData+Extension.swift in Sources */,
@@ -2808,26 +2759,28 @@
 				09845A2429E951F400FD3056 /* CGFloat+Extension.swift in Sources */,
 				AC5C3FCB29DF0A91008F95EC /* Int+Extension.swift in Sources */,
 				AC5C3FCA29DF0A3F008F95EC /* URL+Extension.swift in Sources */,
+				37368D682EDA040000DA52E9 /* Text+Extension.swift in Sources */,
+				37368D692EDA040000DA52E9 /* Date+Extension.swift in Sources */,
+				37368D6A2EDA040000DA52E9 /* UIColor+Extension.swift in Sources */,
+				37368D6B2EDA040000DA52E9 /* Color+Extension.swift in Sources */,
+				37368D6C2EDA040000DA52E9 /* View+Extension.swift in Sources */,
+				37368D6D2EDA040000DA52E9 /* String+Extension.swift in Sources */,
+				37368D6E2EDA040000DA52E9 /* UIApplication+Extension.swift in Sources */,
+				37368D6F2EDA040000DA52E9 /* Bundle+Extension.swift in Sources */,
+				37368D702EDA040000DA52E9 /* UIImage+Extension.swift in Sources */,
 				37CCFB7E265FE645008F7725 /* AnyOptional+Extension.swift in Sources */,
-				FBF97DE62A5C558E00694237 /* Constant.swift in Sources */,
+				FBF97DE62A5C558E00694237 /* ExtensionsConstant.swift in Sources */,
 				37B4705B2642CEEB00D0AAAB /* OptionalString+Extension.swift in Sources */,
 				37CCFB81265FE806008F7725 /* UserDefault.swift in Sources */,
 				FBEEEB692A6A7EA800DBFB99 /* Array+Extension.swift in Sources */,
-				3798A241299FC08700D24E00 /* Color+Extension.swift in Sources */,
 				C89B79D929C1D9B700E883FA /* UIDevice+Extension.swift in Sources */,
 				371D27F92975D0AE00F8125C /* AsyncSequence+Extension.swift in Sources */,
-				37EF7FC829C371CB009A0861 /* String+Extension.swift in Sources */,
-				0F4DFD21295456EF009936D1 /* View+Extension.swift in Sources */,
 				37B470672642CF9700D0AAAB /* OptionalDictionary+Extension.swift in Sources */,
 				0F8DF21F2A0A92F400CA06AA /* FileManager+Extension.swift in Sources */,
 				377B84F02965E28C008363C4 /* Sequence+Extension.swift in Sources */,
-				371095FD298D5DBE00F4B1B3 /* UIImage+Extension.swift in Sources */,
-				ACC5422E297ADBC7005D2E24 /* Date+Extension.swift in Sources */,
 				37CC517D28F844A7002CAEB1 /* UUID+Extension.swift in Sources */,
 				3714A6392ADCF7C900DFB5CA /* Double+Extension.swift in Sources */,
 				37A75AE32955B8DC0005812A /* Publisher+Extension.swift in Sources */,
-				3767B9E62A121DF30072BE60 /* UIApplication+Extension.swift in Sources */,
-				37D0EC00294263BE00CE976E /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2837,7 +2790,7 @@
 			files = (
 				0FADFE8829D5E76000FD1C6B /* ForceUpgradeServer.swift in Sources */,
 				37EF7FE229C4B4D7009A0861 /* WebContentServer.swift in Sources */,
-				3734FCC829DD3761001C2D46 /* Constant.swift in Sources */,
+				3734FCC829DD3761001C2D46 /* ServerConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2846,7 +2799,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				37FAB77D286D8CAF00BFEF66 /* oneSafeApp.swift in Sources */,
-				0F37F3AB2C2D5DC80015B55F /* Text+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2876,16 +2828,16 @@
 				37314B9A293F5F1200BCADE9 /* ArchiveRepositoryImpl.swift in Sources */,
 				37FEE6D4299D067A008BE6E0 /* oneSafeArchive.pb.swift in Sources */,
 				0FFB4C992CEF3EA200ADCFFC /* BubblesArchiveRepositoryImpl.swift in Sources */,
+				37368D672EDA034700DA52E9 /* Logger.swift in Sources */,
 				A8F93EDF29B4CF3400CF39D0 /* ProgressWorker.swift in Sources */,
 				A995918628A6A87E00609F01 /* SafeItemIconRepositoryImpl.swift in Sources */,
-				37649319299A381400C2EECB /* Constant.swift in Sources */,
+				37649319299A381400C2EECB /* RepositoriesConstant.swift in Sources */,
 				0FF35D522C4A984C002C2D79 /* ContactKeyRepositoryImpl.swift in Sources */,
 				3734FCF029DEFC63001C2D46 /* DatabaseRepositoryImpl.swift in Sources */,
 				AC48959B29C4D01C009B1AA4 /* SettingsRepositoryImpl.swift in Sources */,
 				A995918428A6A87E00609F01 /* SafeItemRepositoryImpl.swift in Sources */,
 				AC518AC9291957EB00F6C19F /* FavIconRepositoryImpl.swift in Sources */,
 				37D0EBFC2942558E00CE976E /* SafeItemImportRepositoryImpl.swift in Sources */,
-				ACC044DF28F5B89300179CE9 /* Logger.swift in Sources */,
 				0F38A71E29D6D17600E9B401 /* ForceUpgradeRepositoryImpl.swift in Sources */,
 				0FF35D582C4AA3A4002C2D79 /* ContactRepositoryImpl.swift in Sources */,
 				C83CFC3329A623CD0039B24A /* Repositories.swift in Sources */,
@@ -2910,7 +2862,7 @@
 				A8074CD0297582B200E36210 /* UseCase+ImageColor.swift in Sources */,
 				0F38A72029D6D25500E9B401 /* UseCase+ForceUpgrade.swift in Sources */,
 				A8E625BA29843AB7005D2DF3 /* UseCase+Color.swift in Sources */,
-				370C4EB6299BD2F70089E2AC /* Constant.swift in Sources */,
+				370C4EB6299BD2F70089E2AC /* UseCasesConstant.swift in Sources */,
 				0F19ADA92A5D440D00B8242C /* UseCase+Draft.swift in Sources */,
 				37FEE6D6299D2174008BE6E0 /* UseCase+Biometry.swift in Sources */,
 				0F09544D2C661A6300F71038 /* UseCase+Bubbles.swift in Sources */,
@@ -3192,42 +3144,20 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		3744250B2E3CF1A200213587 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				374424FD2E3CF1A200213587 /* en */,
-				374424FE2E3CF1A200213587 /* ar */,
-				374424FF2E3CF1A200213587 /* de */,
-				374425002E3CF1A200213587 /* es */,
-				374425012E3CF1A200213587 /* fr */,
-				374425022E3CF1A200213587 /* it */,
-				374425032E3CF1A200213587 /* ja */,
-				374425042E3CF1A200213587 /* ko */,
-				374425052E3CF1A200213587 /* pl */,
-				374425062E3CF1A200213587 /* pt */,
-				374425072E3CF1A200213587 /* ru */,
-				374425082E3CF1A200213587 /* uk */,
-				374425092E3CF1A200213587 /* zh-Hans */,
-				3744250A2E3CF1A200213587 /* zh-Hant */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		0F38A73329D71DDA00E9B401 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3236,8 +3166,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).errors";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -3253,7 +3185,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -3261,6 +3193,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3269,6 +3202,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).errors";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -3293,6 +3227,28 @@
 			};
 			name = Debug;
 		};
+		0F7F813B2C4916EA00821732 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4M84N48B4;
+				KOTLIN_FRAMEWORK_ACTIVATE_CRASHLYTICS = true;
+				KOTLIN_FRAMEWORK_BUILD_TYPE = Debug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = DebugDev;
+		};
+		0F7F813C2C4916EA00821732 /* DebugPlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4M84N48B4;
+				KOTLIN_FRAMEWORK_ACTIVATE_CRASHLYTICS = true;
+				KOTLIN_FRAMEWORK_BUILD_TYPE = Debug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = DebugPlus;
+		};
 		0F7F813D2C4916EA00821732 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3304,10 +3260,33 @@
 			};
 			name = Release;
 		};
+		0F7F813E2C4916EA00821732 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4M84N48B4;
+				KOTLIN_FRAMEWORK_ACTIVATE_CRASHLYTICS = true;
+				KOTLIN_FRAMEWORK_BUILD_TYPE = Release;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = ReleaseDev;
+		};
+		0F7F813F2C4916EA00821732 /* ReleasePlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4M84N48B4;
+				KOTLIN_FRAMEWORK_ACTIVATE_CRASHLYTICS = true;
+				KOTLIN_FRAMEWORK_BUILD_TYPE = Release;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = ReleasePlus;
+		};
 		3716369A263BE05D0096462E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3343,6 +3322,10 @@
 				EAGER_LINKING = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(ONESAFE6_KMP_PATH)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -3366,6 +3349,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = studio.lunabee.oneSafe.ios;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
@@ -3376,6 +3360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3411,6 +3396,10 @@
 				EAGER_LINKING = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(ONESAFE6_KMP_PATH)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -3428,6 +3417,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = studio.lunabee.oneSafe.ios;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
@@ -3442,17 +3432,15 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 23;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(ONESAFE6_KMP_PATH)",
-				);
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3461,8 +3449,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).model";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -3481,18 +3471,15 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VH79XGK7M2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 23;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(ONESAFE6_KMP_PATH)",
-				);
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3501,6 +3488,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).model";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -3518,17 +3506,15 @@
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 23;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 23;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(ONESAFE6_KMP_PATH)",
-				);
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3536,12 +3522,16 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).storage";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -3554,18 +3544,15 @@
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 23;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VH79XGK7M2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 23;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(ONESAFE6_KMP_PATH)",
-				);
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3573,12 +3560,15 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).storage";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -3590,14 +3580,16 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(ONESAFE6_KMP_PATH)",
@@ -3614,8 +3606,10 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).coreCrypto";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -3635,7 +3629,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
@@ -3644,6 +3638,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(ONESAFE6_KMP_PATH)",
@@ -3660,6 +3655,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).coreCrypto";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
@@ -3681,10 +3677,11 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3705,6 +3702,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).ThumbnailsCaching";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -3719,13 +3717,107 @@
 			};
 			name = Debug;
 		};
+		376DA9432AD6754B00B94B14 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Lunabee Studio. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).ThumbnailsCaching";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugDev;
+		};
+		376DA9442AD6754B00B94B14 /* DebugPlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Lunabee Studio. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).ThumbnailsCaching";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugPlus;
+		};
 		376DA9452AD6754B00B94B14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -3763,19 +3855,109 @@
 			};
 			name = Release;
 		};
+		376DA9462AD6754B00B94B14 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Lunabee Studio. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).ThumbnailsCaching";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseDev;
+		};
+		376DA9472AD6754B00B94B14 /* ReleasePlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Lunabee Studio. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).ThumbnailsCaching";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleasePlus;
+		};
 		37B470572642CECF00D0AAAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 23;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 23;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3783,8 +3965,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).extensions";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -3802,14 +3987,15 @@
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 23;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VH79XGK7M2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 23;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3817,6 +4003,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).extensions";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -3834,13 +4022,15 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3849,8 +4039,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).server";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -3868,7 +4060,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -3876,6 +4068,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3884,6 +4077,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).server";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -3907,17 +4101,16 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_ENTITLEMENTS = oneSafe/Resources/Entitlements/oneSafe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 522;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_ASSET_PATHS = "oneSafe/Resources/Preview\\ Content";
 				DEVELOPMENT_TEAM = VH79XGK7M2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(ONESAFE6_KMP_PATH)",
-				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = oneSafe/Resources/InfoPlist/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "oneSafe 6";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "OneSafe needs access to your camera in order to take a picture of an item.";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "OneSafe needs access to Face ID to enable quick authentication.";
@@ -3933,7 +4126,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.17.1;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = studio.lunabee.oneSafe.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -3955,17 +4148,16 @@
 				CODE_SIGN_ENTITLEMENTS = oneSafe/Resources/Entitlements/oneSafe.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 522;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_ASSET_PATHS = "oneSafe/Resources/Preview\\ Content";
 				DEVELOPMENT_TEAM = VH79XGK7M2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(ONESAFE6_KMP_PATH)",
-				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = oneSafe/Resources/InfoPlist/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "oneSafe 6";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "OneSafe needs access to your camera in order to take a picture of an item.";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "OneSafe needs access to Face ID to enable quick authentication.";
@@ -3981,7 +4173,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.17.1;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = studio.lunabee.oneSafe.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore studio.lunabee.oneSafe.ios";
@@ -3993,21 +4185,144 @@
 			};
 			name = Release;
 		};
-		A995918028A6A83D00609F01 /* Debug */ = {
+		A8F076AA29F1794900743629 /* DebugPlus */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VH79XGK7M2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EAGER_LINKING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(ONESAFE6_KMP_PATH)",
 				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Lunabee Studio. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONESAFE6_KMP_PATH = "$(PROJECT_DIR)/../oneSafe6_KMP/shared/build";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DPLUS";
+				PRODUCT_BUNDLE_IDENTIFIER = studio.lunabee.oneSafe.ios;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = DebugPlus;
+		};
+		A8F076AB29F1794900743629 /* DebugPlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Apple AppIcon-Chess1 AppIcon-Chess2 AppIcon-Headphone AppIcon-Lab";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = oneSafe/Resources/Entitlements/oneSafe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_ASSET_PATHS = "oneSafe/Resources/Preview\\ Content";
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = oneSafe/Resources/InfoPlist/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "oneSafe 6";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "OneSafe needs access to your camera in order to take a picture of an item.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "OneSafe needs access to Face ID to enable quick authentication.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Lunabee Studio. All rights reserved.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "OneSafe needs access to your microphone to record videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "OneSafe needs access to your library to choose an item's image.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.lunabee.oneSafe.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugPlus;
+		};
+		A8F076AC29F1794900743629 /* DebugPlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4016,8 +4331,1893 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).model";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugPlus;
+		};
+		A8F076AE29F1794900743629 /* DebugPlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).useCases";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugPlus;
+		};
+		A8F076AF29F1794900743629 /* DebugPlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).repositories";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugPlus;
+		};
+		A8F076B029F1794900743629 /* DebugPlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).extensions";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugPlus;
+		};
+		A8F076B129F1794900743629 /* DebugPlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).storage";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugPlus;
+		};
+		A8F076B329F1794900743629 /* DebugPlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(ONESAFE6_KMP_PATH)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).coreCrypto";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugPlus;
+		};
+		A8F076B729F1794900743629 /* DebugPlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).dependencyInjection";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugPlus;
+		};
+		A8F076B829F1794900743629 /* DebugPlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).protocols";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugPlus;
+		};
+		A8F076B929F1794900743629 /* DebugPlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).server";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugPlus;
+		};
+		A8F076BA29F1794900743629 /* DebugPlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).errors";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugPlus;
+		};
+		A8F076BB29F1794C00743629 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EAGER_LINKING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(ONESAFE6_KMP_PATH)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Lunabee Studio. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONESAFE6_KMP_PATH = "$(PROJECT_DIR)/../oneSafe6_KMP/shared/build";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DDEV";
+				PRODUCT_BUNDLE_IDENTIFIER = studio.lunabee.oneSafe.ios.dev;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = DebugDev;
+		};
+		A8F076BC29F1794C00743629 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Apple AppIcon-Chess1 AppIcon-Chess2 AppIcon-Headphone AppIcon-Lab";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = oneSafe/Resources/Entitlements/oneSafe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_ASSET_PATHS = "oneSafe/Resources/Preview\\ Content";
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = oneSafe/Resources/InfoPlist/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "oneSafe 6";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "OneSafe needs access to your camera in order to take a picture of an item.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "OneSafe needs access to Face ID to enable quick authentication.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Lunabee Studio. All rights reserved.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "OneSafe needs access to your microphone to record videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "OneSafe needs access to your library to choose an item's image.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.lunabee.oneSafe.ios.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugDev;
+		};
+		A8F076BD29F1794C00743629 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).model";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugDev;
+		};
+		A8F076BF29F1794C00743629 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).useCases";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugDev;
+		};
+		A8F076C029F1794C00743629 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).repositories";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugDev;
+		};
+		A8F076C129F1794C00743629 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).extensions";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugDev;
+		};
+		A8F076C229F1794C00743629 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).storage";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugDev;
+		};
+		A8F076C429F1794C00743629 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(ONESAFE6_KMP_PATH)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).coreCrypto";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugDev;
+		};
+		A8F076C829F1794C00743629 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).dependencyInjection";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugDev;
+		};
+		A8F076C929F1794C00743629 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).protocols";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugDev;
+		};
+		A8F076CA29F1794C00743629 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).server";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugDev;
+		};
+		A8F076CB29F1794C00743629 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).errors";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugDev;
+		};
+		A8F076CC29F1795D00743629 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EAGER_LINKING = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(ONESAFE6_KMP_PATH)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Lunabee Studio. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONESAFE6_KMP_PATH = "$(PROJECT_DIR)/../oneSafe6_KMP/shared/build";
+				OTHER_SWIFT_FLAGS = "-DDEV";
+				PRODUCT_BUNDLE_IDENTIFIER = studio.lunabee.oneSafe.ios.dev;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseDev;
+		};
+		A8F076CD29F1795D00743629 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Apple AppIcon-Chess1 AppIcon-Chess2 AppIcon-Headphone AppIcon-Lab";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = oneSafe/Resources/Entitlements/oneSafe.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_ASSET_PATHS = "oneSafe/Resources/Preview\\ Content";
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = oneSafe/Resources/InfoPlist/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "oneSafe 6";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "OneSafe needs access to your camera in order to take a picture of an item.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "OneSafe needs access to Face ID to enable quick authentication.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Lunabee Studio. All rights reserved.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "OneSafe needs access to your microphone to record videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "OneSafe needs access to your library to choose an item's image.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.lunabee.oneSafe.ios.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore studio.lunabee.oneSafe.ios.dev";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseDev;
+		};
+		A8F076CE29F1795D00743629 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).model";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseDev;
+		};
+		A8F076D029F1795D00743629 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).useCases";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseDev;
+		};
+		A8F076D129F1795D00743629 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).repositories";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseDev;
+		};
+		A8F076D229F1795D00743629 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).extensions";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseDev;
+		};
+		A8F076D329F1795D00743629 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).storage";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseDev;
+		};
+		A8F076D529F1795D00743629 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(ONESAFE6_KMP_PATH)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).coreCrypto";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseDev;
+		};
+		A8F076D929F1795D00743629 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).dependencyInjection";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseDev;
+		};
+		A8F076DA29F1795D00743629 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).protocols";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseDev;
+		};
+		A8F076DB29F1795D00743629 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).server";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseDev;
+		};
+		A8F076DC29F1795D00743629 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).errors";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseDev;
+		};
+		A8F076DD29F1795F00743629 /* ReleasePlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EAGER_LINKING = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(ONESAFE6_KMP_PATH)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Lunabee Studio. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONESAFE6_KMP_PATH = "$(PROJECT_DIR)/../oneSafe6_KMP/shared/build";
+				OTHER_SWIFT_FLAGS = "-DPLUS";
+				PRODUCT_BUNDLE_IDENTIFIER = studio.lunabee.oneSafe.ios;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleasePlus;
+		};
+		A8F076DE29F1795F00743629 /* ReleasePlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Apple AppIcon-Chess1 AppIcon-Chess2 AppIcon-Headphone AppIcon-Lab";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = oneSafe/Resources/Entitlements/oneSafe.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_ASSET_PATHS = "oneSafe/Resources/Preview\\ Content";
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = oneSafe/Resources/InfoPlist/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "oneSafe 6";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "OneSafe needs access to your camera in order to take a picture of an item.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "OneSafe needs access to Face ID to enable quick authentication.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Lunabee Studio. All rights reserved.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "OneSafe needs access to your microphone to record videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "OneSafe needs access to your library to choose an item's image.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.lunabee.oneSafe.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore studio.lunabee.oneSafe.ios";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleasePlus;
+		};
+		A8F076DF29F1795F00743629 /* ReleasePlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).model";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleasePlus;
+		};
+		A8F076E129F1795F00743629 /* ReleasePlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).useCases";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleasePlus;
+		};
+		A8F076E229F1795F00743629 /* ReleasePlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).repositories";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleasePlus;
+		};
+		A8F076E329F1795F00743629 /* ReleasePlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).extensions";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleasePlus;
+		};
+		A8F076E429F1795F00743629 /* ReleasePlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).storage";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleasePlus;
+		};
+		A8F076E629F1795F00743629 /* ReleasePlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(ONESAFE6_KMP_PATH)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).coreCrypto";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleasePlus;
+		};
+		A8F076EA29F1795F00743629 /* ReleasePlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).dependencyInjection";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleasePlus;
+		};
+		A8F076EB29F1795F00743629 /* ReleasePlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).protocols";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleasePlus;
+		};
+		A8F076EC29F1795F00743629 /* ReleasePlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).server";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleasePlus;
+		};
+		A8F076ED29F1795F00743629 /* ReleasePlus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).errors";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleasePlus;
+		};
+		A995918028A6A83D00609F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).repositories";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -4033,7 +6233,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -4041,10 +6241,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(ONESAFE6_KMP_PATH)",
-				);
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4053,6 +6250,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).repositories";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -4073,17 +6271,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(ONESAFE6_KMP_PATH)",
-				);
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4092,8 +6288,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).useCases";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -4113,7 +6311,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -4121,10 +6319,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(ONESAFE6_KMP_PATH)",
-				);
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4133,6 +6328,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).useCases";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -4150,13 +6346,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4165,8 +6363,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).dependencyInjection";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -4182,7 +6382,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -4190,6 +6390,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4198,6 +6399,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).dependencyInjection";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -4215,17 +6417,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VH79XGK7M2;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(ONESAFE6_KMP_PATH)",
-				);
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4234,8 +6434,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).protocols";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -4251,7 +6453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -4259,10 +6461,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(ONESAFE6_KMP_PATH)",
-				);
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4271,6 +6470,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).protocols";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -4291,7 +6491,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F38A73329D71DDA00E9B401 /* Debug */,
+				A8F076CB29F1794C00743629 /* DebugDev */,
+				A8F076BA29F1794900743629 /* DebugPlus */,
 				0F38A73529D71DDA00E9B401 /* Release */,
+				A8F076DC29F1795D00743629 /* ReleaseDev */,
+				A8F076ED29F1795F00743629 /* ReleasePlus */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4300,7 +6504,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F7F813A2C4916EA00821732 /* Debug */,
+				0F7F813B2C4916EA00821732 /* DebugDev */,
+				0F7F813C2C4916EA00821732 /* DebugPlus */,
 				0F7F813D2C4916EA00821732 /* Release */,
+				0F7F813E2C4916EA00821732 /* ReleaseDev */,
+				0F7F813F2C4916EA00821732 /* ReleasePlus */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4309,7 +6517,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3716369A263BE05D0096462E /* Debug */,
+				A8F076BB29F1794C00743629 /* DebugDev */,
+				A8F076AA29F1794900743629 /* DebugPlus */,
 				3716369B263BE05D0096462E /* Release */,
+				A8F076CC29F1795D00743629 /* ReleaseDev */,
+				A8F076DD29F1795F00743629 /* ReleasePlus */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4318,7 +6530,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				371636DC263C4D960096462E /* Debug */,
+				A8F076BD29F1794C00743629 /* DebugDev */,
+				A8F076AC29F1794900743629 /* DebugPlus */,
 				371636DD263C4D960096462E /* Release */,
+				A8F076CE29F1795D00743629 /* ReleaseDev */,
+				A8F076DF29F1795F00743629 /* ReleasePlus */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4327,7 +6543,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				371636FF263C4DE30096462E /* Debug */,
+				A8F076C229F1794C00743629 /* DebugDev */,
+				A8F076B129F1794900743629 /* DebugPlus */,
 				37163700263C4DE30096462E /* Release */,
+				A8F076D329F1795D00743629 /* ReleaseDev */,
+				A8F076E429F1795F00743629 /* ReleasePlus */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4336,7 +6556,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37268D3F29963E1B002739A6 /* Debug */,
+				A8F076C429F1794C00743629 /* DebugDev */,
+				A8F076B329F1794900743629 /* DebugPlus */,
 				37268D4129963E1B002739A6 /* Release */,
+				A8F076D529F1795D00743629 /* ReleaseDev */,
+				A8F076E629F1795F00743629 /* ReleasePlus */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4345,7 +6569,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				376DA9422AD6754B00B94B14 /* Debug */,
+				376DA9432AD6754B00B94B14 /* DebugDev */,
+				376DA9442AD6754B00B94B14 /* DebugPlus */,
 				376DA9452AD6754B00B94B14 /* Release */,
+				376DA9462AD6754B00B94B14 /* ReleaseDev */,
+				376DA9472AD6754B00B94B14 /* ReleasePlus */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4354,7 +6582,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37B470572642CECF00D0AAAB /* Debug */,
+				A8F076C129F1794C00743629 /* DebugDev */,
+				A8F076B029F1794900743629 /* DebugPlus */,
 				37B470582642CECF00D0AAAB /* Release */,
+				A8F076D229F1795D00743629 /* ReleaseDev */,
+				A8F076E329F1795F00743629 /* ReleasePlus */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4363,7 +6595,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37EF7FDC29C4B490009A0861 /* Debug */,
+				A8F076CA29F1794C00743629 /* DebugDev */,
+				A8F076B929F1794900743629 /* DebugPlus */,
 				37EF7FDE29C4B490009A0861 /* Release */,
+				A8F076DB29F1795D00743629 /* ReleaseDev */,
+				A8F076EC29F1795F00743629 /* ReleasePlus */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4372,7 +6608,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37FAB786286D8CB000BFEF66 /* Debug */,
+				A8F076BC29F1794C00743629 /* DebugDev */,
+				A8F076AB29F1794900743629 /* DebugPlus */,
 				37FAB787286D8CB000BFEF66 /* Release */,
+				A8F076CD29F1795D00743629 /* ReleaseDev */,
+				A8F076DE29F1795F00743629 /* ReleasePlus */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4381,7 +6621,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A995918028A6A83D00609F01 /* Debug */,
+				A8F076C029F1794C00743629 /* DebugDev */,
+				A8F076AF29F1794900743629 /* DebugPlus */,
 				A995918128A6A83D00609F01 /* Release */,
+				A8F076D129F1795D00743629 /* ReleaseDev */,
+				A8F076E229F1795F00743629 /* ReleasePlus */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4390,7 +6634,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A99591A528A6B2C500609F01 /* Debug */,
+				A8F076BF29F1794C00743629 /* DebugDev */,
+				A8F076AE29F1794900743629 /* DebugPlus */,
 				A99591A628A6B2C500609F01 /* Release */,
+				A8F076D029F1795D00743629 /* ReleaseDev */,
+				A8F076E129F1795F00743629 /* ReleasePlus */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4399,7 +6647,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C83CFC0E29A617210039B24A /* Debug */,
+				A8F076C829F1794C00743629 /* DebugDev */,
+				A8F076B729F1794900743629 /* DebugPlus */,
 				C83CFC1029A617210039B24A /* Release */,
+				A8F076D929F1795D00743629 /* ReleaseDev */,
+				A8F076EA29F1795F00743629 /* ReleasePlus */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4408,7 +6660,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C83CFC2B29A61E160039B24A /* Debug */,
+				A8F076C929F1794C00743629 /* DebugDev */,
+				A8F076B829F1794900743629 /* DebugPlus */,
 				C83CFC2D29A61E160039B24A /* Release */,
+				A8F076DA29F1795D00743629 /* ReleaseDev */,
+				A8F076EB29F1795F00743629 /* ReleasePlus */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4424,12 +6680,28 @@
 				minimumVersion = 2.5.0;
 			};
 		};
+		0FB4222C2CB3E159003F2F41 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.9.0;
+			};
+		};
 		3716370A263C4F760096462E /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-cocoa";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 20.0.0;
+			};
+		};
+		37208864278B523200EDDEA4 /* XCRemoteSwiftPackageReference "SwiftOTP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lachlanbell/SwiftOTP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
 			};
 		};
 		37314B79293E51BE00BCADE9 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
@@ -4456,12 +6728,12 @@
 				minimumVersion = 1.5.0;
 			};
 		};
-		3744252C2E3CF57900213587 /* XCRemoteSwiftPackageReference "lbfoundationkit" */ = {
+		373A396B2AB0F7ED001F15F9 /* XCRemoteSwiftPackageReference "ShowTime" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:LunabeeStudio/lbfoundationkit";
+			repositoryURL = "https://github.com/KaneCheshire/ShowTime.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.2;
+				minimumVersion = 2.0.0;
 			};
 		};
 		3788C9B229A33F7E004DFA93 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
@@ -4551,15 +6823,10 @@
 			package = 3732AD622C070F7400E033E5 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */;
 			productName = Shimmer;
 		};
-		3744252D2E3CF57900213587 /* LBFoundationKit */ = {
+		373A396C2AB0F7ED001F15F9 /* ShowTime */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3744252C2E3CF57900213587 /* XCRemoteSwiftPackageReference "lbfoundationkit" */;
-			productName = LBFoundationKit;
-		};
-		3744252F2E3CF59C00213587 /* LBFoundationKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3744252C2E3CF57900213587 /* XCRemoteSwiftPackageReference "lbfoundationkit" */;
-			productName = LBFoundationKit;
+			package = 373A396B2AB0F7ED001F15F9 /* XCRemoteSwiftPackageReference "ShowTime" */;
+			productName = ShowTime;
 		};
 		374569432AD94DB0006282BA /* ColorKit */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -4615,6 +6882,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3716370A263C4F760096462E /* XCRemoteSwiftPackageReference "realm-cocoa" */;
 			productName = RealmSwift;
+		};
+		935B874B2D880D310030AAA4 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FB4222C2CB3E159003F2F41 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -8,7 +8,7 @@
 
 import Foundation
 import Model
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 import Storage
 import RealmSwift
 import Combine

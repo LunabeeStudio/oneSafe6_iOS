@@ -183,8 +183,9 @@ final class AppRepositoryImpl: AppRepository {
         UserDefaultsManager.shared.safeMessagesOrderMigrated = value
     }
 
-    func lastNoBackupWarningDismissDate() -> AnyPublisher<Date, Never> {
+    func observeLastNoBackupWarningDismissDate() -> AnyPublisher<Date, Never> {
         UserDefaultsManager.shared.$lastNoBackupWarningDismissDate
+            .removeDuplicates()
             .eraseToAnyPublisher()
     }
 
@@ -192,13 +193,22 @@ final class AppRepositoryImpl: AppRepository {
         UserDefaultsManager.shared.lastNoBackupWarningDismissDate = value
     }
 
-    func lastNoPasswordVerificationWarningDismissDate() -> AnyPublisher<Date, Never> {
+    func lastNoBackupWarningDismissDate() -> Date {
+        UserDefaultsManager.shared.lastNoBackupWarningDismissDate
+    }
+
+    func observeLastNoPasswordVerificationWarningDismissDate() -> AnyPublisher<Date, Never> {
         UserDefaultsManager.shared.$lastNoPasswordVerificationWarningDismissDate
+            .removeDuplicates()
             .eraseToAnyPublisher()
     }
 
     func updateLastNoPasswordVerificationWarningDismissDate(_ value: Date) {
         UserDefaultsManager.shared.lastNoPasswordVerificationWarningDismissDate = value
+    }
+
+    func lastNoPasswordVerificationWarningDismissDate() -> Date {
+        UserDefaultsManager.shared.lastNoPasswordVerificationWarningDismissDate
     }
 }
 

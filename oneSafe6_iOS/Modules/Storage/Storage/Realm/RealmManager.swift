@@ -243,7 +243,8 @@ public extension RealmManager {
         let publisher: AnyPublisher<Int, Never> = objects
             .collectionPublisher
             .subscribe(on: self.publishersQueue)
-            .threadSafeReference()
+            .map { $0.freeze() }
+            .buffer(size: 32, prefetch: .keepFull, whenFull: .dropOldest)
             .compactMap {
                 guard self.isLoaded.value else { return nil }
                 return $0.count

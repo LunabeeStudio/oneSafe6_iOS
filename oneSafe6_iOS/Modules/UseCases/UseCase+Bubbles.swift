@@ -10,7 +10,7 @@ import Foundation
 import Model
 import Combine
 import CoreCrypto
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 import Errors
 
 public extension UseCase {
@@ -58,6 +58,10 @@ public extension UseCase {
 
     static func hasContact() throws -> Bool {
         try contactRepository.hasContact()
+    }
+
+    static func observeHasContact() throws -> AnyPublisher<Bool, Never> {
+        try contactRepository.observeHasContact()
     }
 
     static func getAllContacts() -> [oneSafeKmp.Contact] {

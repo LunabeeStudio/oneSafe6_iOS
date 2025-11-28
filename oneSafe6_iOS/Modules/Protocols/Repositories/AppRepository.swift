@@ -67,8 +67,10 @@ public protocol AppRepository {
     func getAllExistingKeychainKeys() -> [String]
     func getAllExistingConfigurationFilesNames() throws -> [String]
 
-    func lastNoBackupWarningDismissDate() -> AnyPublisher<Date, Never>
+    func observeLastNoBackupWarningDismissDate() -> AnyPublisher<Date, Never>
     func updateLastNoBackupWarningDismissDate(_ value: Date)
-    func lastNoPasswordVerificationWarningDismissDate() -> AnyPublisher<Date, Never>
+    func lastNoBackupWarningDismissDate() -> Date
+    func observeLastNoPasswordVerificationWarningDismissDate() -> AnyPublisher<Date, Never>
     func updateLastNoPasswordVerificationWarningDismissDate(_ value: Date)
+    func lastNoPasswordVerificationWarningDismissDate() -> Date
 }

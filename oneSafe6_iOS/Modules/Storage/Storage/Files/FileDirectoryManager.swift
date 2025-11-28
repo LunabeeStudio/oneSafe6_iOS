@@ -344,6 +344,7 @@ public extension FileDirectoryManager {
 
     func removeAllFilesInReadEditTemporaryDirectory(directoryId: String) async throws {
         let url: URL = try fileReadEditTemporaryDirectoryUrl(directoryId: directoryId, create: false)
+        // TODO: Nico to Check this runtime (purple) warning: Performing I/O on the main thread can cause hangs.
 
         try FileManager.default.removeItem(at: url)
     }

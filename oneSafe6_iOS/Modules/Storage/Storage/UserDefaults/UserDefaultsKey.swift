@@ -62,5 +62,6 @@ enum UserDefaultsKey: String {
     case lastNoBackupWarningDismissDate
     case lastNoPasswordVerificationWarningDismissDate
 
+
     case createItemFromPastboardOptionEnabled
 }

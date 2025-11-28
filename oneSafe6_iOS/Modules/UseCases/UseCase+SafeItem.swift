@@ -11,8 +11,6 @@ import Model
 import Repositories
 import Combine
 import SwiftUI
-import LBFoundationKit
-import Assets
 import Errors
 import ThumbnailsCaching
 
@@ -127,6 +125,7 @@ public extension UseCase {
     }
 
     static func getNotDeletedSafeItems(parentId: String?) throws -> [SafeItem] {
+        // TODO: Nico to put this filter at Realm level.
         try safeItemRepository.getItems(parentId: parentId).filter { $0.deletedAt == nil }
     }
 
@@ -267,7 +266,7 @@ public extension UseCase {
         return (duplicateField, duplicatedFileUrl)
     }
 
-    private static func setupDuplicatedSafeItem(_ originalSafeItem: SafeItem, originalSafeItemKey: SafeItemKey? = nil, isRootDuplicateItem: Bool = false) async throws -> (SafeItem, [(SafeItemField, URL?)], SafeItemIconDuplicate?, SafeItemKey) {
+    private static func setupDuplicatedSafeItem(_ originalSafeItem: SafeItem, originalSafeItemKey: SafeItemKey? = nil, isRootDuplicateItem: Bool = false, duplicatedItemName: @escaping (_ itemName: String) -> String) async throws -> (SafeItem, [(SafeItemField, URL?)], SafeItemIconDuplicate?, SafeItemKey) {
         guard let originalSafeItemKey = try originalSafeItemKey ?? getSafeItemKey(itemId: originalSafeItem.id) else { throw AppError.duplicationFailed }
 
         var duplicateItem: SafeItem = originalSafeItem
@@ -276,7 +275,7 @@ public extension UseCase {
 
         guard let safeItemName: String = try getStringFromEncryptedData(data: originalSafeItem.encName, key: originalSafeItemKey) else { throw AppError.duplicationFailed }
 
-        let newName: String = isRootDuplicateItem ? Strings.SafeItem.defaultDuplicatedName(safeItemName) : safeItemName
+        let newName: String = isRootDuplicateItem ? duplicatedItemName(safeItemName) : safeItemName
         duplicateItem.encName = try getEncryptedDataFromString(value: newName, key: duplicateItemKey)
 
         if let encColor = originalSafeItem.encColor {
@@ -305,15 +304,15 @@ public extension UseCase {
         return (duplicateItem, duplicateFields, duplicateIcon, duplicateItemKey)
     }
 
-    static func duplicate(item: SafeItem, key: SafeItemKey) async throws -> String {
+    static func duplicate(item: SafeItem, key: SafeItemKey, duplicatedItemName: @escaping (_ itemName: String) -> String) async throws -> String {
         do {
             let childrenToDuplicate: [SafeItem] = try await getAllSubItemsRecursively(item: item).filter { $0.deletedAt == nil }
             var duplicatedObjects: [(SafeItem, [(SafeItemField, URL?)], SafeItemIconDuplicate?, SafeItemKey)] = []
-            duplicatedObjects.append(try await setupDuplicatedSafeItem(item, originalSafeItemKey: key, isRootDuplicateItem: true))
+            duplicatedObjects.append(try await setupDuplicatedSafeItem(item, originalSafeItemKey: key, isRootDuplicateItem: true, duplicatedItemName: duplicatedItemName))
             duplicatedObjects.append(contentsOf: try await withThrowingTaskGroup(of: (SafeItem, [(SafeItemField, URL?)], SafeItemIconDuplicate?, SafeItemKey).self) { taskGroup in
                 for item in childrenToDuplicate {
                     taskGroup.addTask {
-                        try await setupDuplicatedSafeItem(item)
+                        try await setupDuplicatedSafeItem(item, duplicatedItemName: duplicatedItemName)
                     }
                 }
                 return try await taskGroup.collect()
@@ -369,6 +368,7 @@ public extension UseCase {
     }
 
     static func getFavoritesSafeItems() throws -> [SafeItem] {
+        // TODO: Nico to remove this call.
         try safeItemRepository.getAllItems()
             .filter { $0.isFavorite }
     }
@@ -484,6 +484,8 @@ public extension UseCase {
 
         return items.reversed()
     }
+
+    // TODO: Nico to delete.
     static func sortedItemsWithCurrentSortingOption(_ items: [SafeItemWithKey]) -> [SafeItemWithKey] {
         items.sorted {
             switch getItemsSortingOption() {
@@ -555,7 +557,7 @@ extension UseCase {
 
     // position → (original position + next sibling item position) / 2 (if no next sibling, original position + 1)
     static func getNextPositionBeforeSibling(originalPosition: Double, parentId: String?) -> Double {
-        guard let items = try? safeItemRepository.getItems(parentId: parentId).filter({ $0.deletedAt == nil }).sorted(by: \.position) else { return 0 }
+        guard let items = try? safeItemRepository.getItems(parentId: parentId).filter({ $0.deletedAt == nil }).sorted(by: { $0.position < $1.position }) else { return 0 }
         return (items.filter( { $0.position > originalPosition }).first != nil) ? (originalPosition + items.filter( { $0.position > originalPosition })[0].position) / 2 : originalPosition + 1
     }
 
@@ -718,6 +720,7 @@ extension UseCase {
                         field.itemId = newItemId
 
                         guard let kind = try SafeItemField.Kind(rawValue: getStringFromEncryptedData(data: field.encKind, key: key) ?? "") else { throw AppError.appUnknown }
+                        // TODO: Use a lazy var `isAFile`
                         if [.file, .photo, .video].contains(kind) {
                             guard let fileIdAndExtension = try getStringFromEncryptedData(data: field.encValue, key: key) else { throw AppError.appUnknown }
                             guard let fileExtension = fileIdAndExtension.components(separatedBy: "|").last else { throw AppError.appUnknown }
@@ -739,7 +742,7 @@ extension UseCase {
             }
             var results: [SafeItemField] = []
             for try await result in taskGroup {
-                results.append(result.field)
+                result.field.map { results.append($0) }
                 if let fileIds = result.fileIds {
                     newFileIdsByOldFileIds[fileIds.old] = fileIds.new
                 }

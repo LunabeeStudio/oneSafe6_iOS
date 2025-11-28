@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 
 public struct EncHandShakeData {
     public let conversationLocalId: String

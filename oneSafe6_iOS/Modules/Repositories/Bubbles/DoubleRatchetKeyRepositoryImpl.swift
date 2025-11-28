@@ -9,7 +9,7 @@
 import Foundation
 import Storage
 import Model
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 
 final class DoubleRatchetKeyRepositoryImpl: DoubleRatchetKeyLocalDatasource {
     private let database: RealmManager = .shared

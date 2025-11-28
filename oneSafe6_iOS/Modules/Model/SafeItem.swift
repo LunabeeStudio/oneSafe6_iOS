@@ -10,6 +10,7 @@ import Foundation
 import Extensions
 
 public struct SafeItem: Sendable {
+    // TODO: Nico all of this must be let properties.
     public var id: String
     public var encName: Data?
     public var encColor: Data?

@@ -108,7 +108,7 @@ public extension UseCase {
                     )
                 }
             }
-            return try await taskGroup.collect().compactMap()
+            return try await taskGroup.collect().compactMap { $0 }
         }
         itemsTitles.sort {
             $0.itemTitle.compare($1.itemTitle, options: [.numeric]) == .orderedAscending

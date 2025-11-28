@@ -1,8 +1,0 @@
-<svg width="232" height="232" viewBox="0 0 232 232" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Group 1">
-<path id="Line 1" d="M228 76V20C228 11.1634 220.837 4 212 4H156" stroke="white" stroke-width="7" stroke-linecap="round"/>
-<path id="Line 2" d="M76 4H20C11.1634 4 4 11.1634 4 20V76" stroke="white" stroke-width="7" stroke-linecap="round"/>
-<path id="Line 3" d="M4 156V212C4 220.837 11.1634 228 20 228H76" stroke="white" stroke-width="7" stroke-linecap="round"/>
-<path id="Line 4" d="M156 228H212C220.837 228 228 220.837 228 212V156" stroke="white" stroke-width="7" stroke-linecap="round"/>
-</g>
-</svg>

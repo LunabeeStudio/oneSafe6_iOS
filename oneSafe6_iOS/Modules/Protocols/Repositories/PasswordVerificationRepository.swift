@@ -11,4 +11,5 @@ import Foundation
 public protocol PasswordVerificationRepository {
     var lastPasswordVerificationDate: Date? { get }
     func updateLastPasswordEnterWithSuccessDate() throws
+
 }

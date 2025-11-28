@@ -6,7 +6,7 @@
 //  Copyright © 2025 Lunabee Studio. All rights reserved.
 //
 
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 
 public protocol HandShakeDataRepository: HandShakeDataLocalDatasource {
     func deleteAll() throws

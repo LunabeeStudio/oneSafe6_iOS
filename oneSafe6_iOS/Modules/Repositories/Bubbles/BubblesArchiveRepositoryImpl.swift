@@ -9,7 +9,7 @@
 import Foundation
 import ZIPFoundation
 import Protocols
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 
 final class ArchiveBubblesRepositoryImpl: ArchiveBubblesRepository {
     // MARK: Export

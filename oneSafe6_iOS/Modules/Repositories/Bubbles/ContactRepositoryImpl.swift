@@ -8,7 +8,7 @@
 
 import Foundation
 import Model
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 import Storage
 import Combine
 import Protocols
@@ -43,6 +43,7 @@ final class ContactRepositoryImpl: Protocols.ContactRepository {
     func observeHasContact() throws -> AnyPublisher<Bool, Never> {
         try database.countPublisher(objectsOfType: Contact.self)
             .map { $0 > 0 }
+            .removeDuplicates()
             .eraseToAnyPublisher()
     }
 
@@ -97,7 +98,7 @@ final class ContactRepositoryImpl: Protocols.ContactRepository {
             .sink { contact in
                 wrapper.emit(value: contact?.toKMPModel())
             }
-            .store(in: &kmpCancellables)
+            .store(in: &kmpCancellables) // TODO: We should store it in a dictionary with contact id as key to be able to cancel it easily when kmp ask it.
 
         return wrapper.flow()
     }

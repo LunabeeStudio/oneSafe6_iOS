@@ -6,7 +6,7 @@
 //  Copyright © 2024 Lunabee Studio. All rights reserved.
 //
 
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 
 public protocol SentMessageRepository: SentMessageLocalDatasource {
     func deleteAll() throws

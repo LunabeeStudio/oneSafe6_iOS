@@ -44,6 +44,39 @@ public extension Date {
     }
 }
 
+public extension Date {
+    static func + (lhs: Date, rhs: DateOffset) -> Date {
+        Calendar.current.date(byAdding: rhs.components, to: lhs) ?? lhs
+    }
+    static func - (lhs: Date, rhs: DateOffset) -> Date {
+        Calendar.current.date(byAdding: rhs.components.negated, to: lhs) ?? lhs
+    }
+}
+
+public struct DateOffset {
+    public static func days(_ value: Int) -> DateOffset { .init(components: DateComponents(day: value)) }
+    public static func hours(_ value: Int) -> DateOffset { .init(components: DateComponents(hour: value)) }
+
+    let components: DateComponents
+}
+
+// Negate all integer date components (used to implement Date - DateOffset)
+private extension DateComponents {
+    var negated: DateComponents {
+        var c: DateComponents = self
+        c.year = c.year.map { -$0 }
+        c.month = c.month.map { -$0 }
+        c.weekOfYear = c.weekOfYear.map { -$0 }
+        c.weekOfMonth = c.weekOfMonth.map { -$0 }
+        c.day = c.day.map { -$0 }
+        c.hour = c.hour.map { -$0 }
+        c.minute = c.minute.map { -$0 }
+        c.second = c.second.map { -$0 }
+        c.nanosecond = c.nanosecond.map { -$0 }
+        return c
+    }
+}
+
 public extension FormatStyle where Self == Date.ISO8601FormatStyle {
     static var iso8601WithoutTimeZone: Date.ISO8601FormatStyle { .iso8601(timeZone: .gmt) }
 }

@@ -1,0 +1,38 @@
+comments:
+  AbsentOrWrongFileLicense:
+    active: true
+    licenseTemplateFile: "lunabee-license.template"
+    excludes:
+      - '**/app/*'
+      - '**/app/src/**'
+      - '**/app/core-ui/**'
+      - '**/app/common-ui/**'
+      - '**/app/login/**'
+      - '**/app/help/**'
+      - '**/macrobenchmark-android/**'
+      - '**/mockos5/*'
+      - '**/oneSafe6_iOS/*'
+
+complexity:
+  LongMethod:
+    allowedLines: 250
+  CyclomaticComplexMethod:
+    allowedComplexity: 35
+  NestedBlockDepth:
+    allowedDepth: 10
+  ComplexCondition:
+    allowedConditions: 10
+  LongParameterList:
+    allowedConstructorParameters: 10
+
+ktlint:
+  AnnotationOnSeparateLine:
+    ignoreAnnotated: [ 'AssistedInject', 'Inject', 'Assisted', 'JvmOverloads', 'PublishedApi' ]
+
+style:
+  UnusedParameter:
+    ignoreAnnotated: [ 'Preview', 'OsDefaultPreview' ]
+
+performance:
+  SpreadOperator:
+    ignoreAnnotated: [ 'Preview', 'OsDefaultPreview' ]

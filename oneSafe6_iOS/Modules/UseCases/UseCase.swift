@@ -8,7 +8,7 @@
 
 import struct DependencyInjection.Inject
 import Protocols
-import oneSafeKmp
+@preconcurrency import oneSafeKmp
 
 public enum UseCase {
     @Inject static var appRepository: AppRepository
