@@ -9,6 +9,22 @@
 import UIKit
 
 public extension UIApplication {
+    var currentWindow: UIWindow? {
+        UIApplication.shared.connectedScenes
+            .filter { $0.activationState == .foregroundInactive || $0.activationState == .foregroundActive }
+            .first { $0 is UIWindowScene }
+            .flatMap({ $0 as? UIWindowScene })?.windows
+            .first(where: \.isKeyWindow)
+    }
+
+    var firstWindow: UIWindow? {
+        UIApplication.shared.connectedScenes
+            .filter { $0.activationState == .foregroundInactive || $0.activationState == .foregroundActive }
+            .first { $0 is UIWindowScene }
+            .flatMap({ $0 as? UIWindowScene })?.windows
+            .first
+    }
+
     var statusBarHeight: CGFloat {
         let windowScene: UIWindowScene? = self.connectedScenes.compactMap { $0 as? UIWindowScene }.first
         return windowScene?.windows.first(where: { $0.isKeyWindow })?.safeAreaInsets.top ?? windowScene?.statusBarManager?.statusBarFrame.size.height ?? 0
